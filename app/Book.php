@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Str;
 use mysql_xdevapi\Exception;
 
@@ -26,7 +27,10 @@ class Book extends Model
         return '/books/' . $this->id;
     }
 
-    public function checkout(User $user)
+    /**
+     * @param $user
+     */
+    public function checkout($user)
     {
         $this->reservations()->create([
             'user_id' => $user->id,
@@ -35,10 +39,10 @@ class Book extends Model
     }
 
     /**
-     * @param User $user
+     * @param $user
      * @throws \Exception
      */
-    public function checkin(User $user)
+    public function checkin($user)
     {
         $reservation = $this->reservations()
             ->where('user_id', $user->id)
@@ -66,6 +70,9 @@ class Book extends Model
         ]))->id;
     }
 
+    /**
+     * @return HasMany
+     */
     public function reservations()
     {
         return $this->hasMany(Reservation::class);
