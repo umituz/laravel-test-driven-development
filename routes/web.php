@@ -1,10 +1,9 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function(){
-    return view('welcome');
-});
+Route::get('/', 'UrlController@home');
 
 Route::post('/books', 'BooksController@store');
 Route::patch('/books/{book}', 'BooksController@update');
