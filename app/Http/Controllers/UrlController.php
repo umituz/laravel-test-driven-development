@@ -12,8 +12,8 @@ class UrlController extends Controller
 {
     public function home()
     {
-        Performance::point();
-        Performance::results();
+//        Performance::point();
+//        Performance::results();
         return view('welcome');
     }
 }
