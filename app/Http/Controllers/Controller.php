@@ -10,6 +10,7 @@ use Illuminate\Routing\Controller as BaseController;
 /**
  * Class Controller
  * @package App\Http\Controllers
+ * @ Core
  */
 class Controller extends BaseController
 {

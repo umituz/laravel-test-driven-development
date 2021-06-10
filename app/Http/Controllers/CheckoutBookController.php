@@ -7,6 +7,7 @@ use App\Book;
 /**
  * Class CheckoutBookController
  * @package App\Http\Controllers
+ * @group CheckoutBook
  */
 class CheckoutBookController extends Controller
 {

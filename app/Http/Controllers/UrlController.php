@@ -10,6 +10,7 @@ use Illuminate\View\View;
 /**
  * Class UrlController
  * @package App\Http\Controllers
+ * @group URL Module
  */
 class UrlController extends Controller
 {

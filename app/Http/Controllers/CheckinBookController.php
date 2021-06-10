@@ -11,6 +11,7 @@ use Illuminate\Http\Response;
 /**
  * Class CheckinBookController
  * @package App\Http\Controllers
+ * @group CheckinBook Module
  */
 class CheckinBookController extends Controller
 {

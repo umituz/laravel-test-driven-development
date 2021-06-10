@@ -7,6 +7,7 @@ use Illuminate\Contracts\Support\Renderable;
 /**
  * Class HomeController
  * @package App\Http\Controllers
+ * @group Home Module
  */
 class HomeController extends Controller
 {

@@ -10,6 +10,7 @@ use Illuminate\View\View;
 /**
  * Class AuthorsController
  * @package App\Http\Controllers
+ * @group Authors Module
  */
 class AuthorsController extends Controller
 {

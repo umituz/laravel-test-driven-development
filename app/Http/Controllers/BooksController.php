@@ -11,6 +11,7 @@ use Illuminate\Routing\Redirector;
 /**
  * Class BooksController
  * @package App\Http\Controllers
+ * @group Books Module
  */
 class BooksController extends Controller
 {
