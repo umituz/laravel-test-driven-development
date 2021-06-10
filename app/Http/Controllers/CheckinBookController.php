@@ -29,13 +29,9 @@ class CheckinBookController extends Controller
     public function store(Book $book)
     {
         try {
-
             $book->checkin(auth()->user());
-
         } catch (Exception $e) {
-
             return response([], JsonResponse::HTTP_NOT_FOUND);
-
         }
     }
 }

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Performance\Performance;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\View\View;
 
 /**
  * Class UrlController
@@ -10,10 +13,23 @@ use Performance\Performance;
  */
 class UrlController extends Controller
 {
+    /**
+     * @return Application|Factory|View
+     */
     public function home()
     {
-//        Performance::point();
-//        Performance::results();
+        return view('welcome');
+    }
+
+    /**
+     * Analyze performance of the current page
+     *
+     * @return Application|Factory|View
+     */
+    public function analyzePerformance()
+    {
+        Performance::point();
+        Performance::results();
         return view('welcome');
     }
 }
