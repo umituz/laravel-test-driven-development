@@ -17,6 +17,7 @@
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
         "beyondcode/dusk-dashboard": "^2.0",
+        "beyondcode/laravel-er-diagram-generator": "^1.5",
         "beyondcode/laravel-self-diagnosis": "^1.5",
         "facade/ignition": "^2.0",
         "fzaninotto/faker": "^1.4",
