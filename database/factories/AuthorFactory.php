@@ -1,13 +1,13 @@
 <?php
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+/* @var $factory Factory */
 
-use App\Author;
 use Faker\Generator as Faker;
+use Illuminate\Database\Eloquent\Factory;
 
-$factory->define(Author::class, function (Faker $faker) {
+$factory->define(App\Author::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
-        'birthday' => now()->subYears(20)
+        'birthday' => $faker->dateTime(),
     ];
 });

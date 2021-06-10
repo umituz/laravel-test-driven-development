@@ -1,14 +1,13 @@
 <?php
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
+/* @var $factory Factory */
 
-use App\{Book, Author};
 use Faker\Generator as Faker;
+use Illuminate\Database\Eloquent\Factory;
 
-$factory->define(Book::class, function (Faker $faker) {
+$factory->define(App\Book::class, function (Faker $faker) {
     return [
-        'title' => $faker->sentence,
-        'author_id' => factory(Author::class),
-
+        'title' => $faker->word,
+        'author_id' => $faker->randomNumber(),
     ];
 });
