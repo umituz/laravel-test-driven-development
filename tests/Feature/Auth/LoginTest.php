@@ -45,7 +45,6 @@ class LoginTest extends TestCase
         $this->assertAuthenticatedAs($user);
     }
 
-
     public function test_user_cannot_login_with_incorrect_password()
     {
         $user = factory(User::class)->create([
