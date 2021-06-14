@@ -5543,16 +5543,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.10.1",
+            "version": "2.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "508d80f91de953617977e5666f8953669b6e81f2"
+                "reference": "43688227bbf27c43bc1ad83af224f135b6ef0ff4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/508d80f91de953617977e5666f8953669b6e81f2",
-                "reference": "508d80f91de953617977e5666f8953669b6e81f2",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/43688227bbf27c43bc1ad83af224f135b6ef0ff4",
+                "reference": "43688227bbf27c43bc1ad83af224f135b6ef0ff4",
                 "shasum": ""
             },
             "require": {
@@ -5616,7 +5616,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-06-03T21:41:42+00:00"
+            "time": "2021-06-11T06:57:25+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -6033,16 +6033,16 @@
         },
         {
             "name": "knuckleswtf/scribe",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/knuckleswtf/scribe.git",
-                "reference": "277c56e553e74b396ed7fb6dd55f9f14b529a116"
+                "reference": "2e4b0b4485eba540e1c0743cbfa6de7300c01d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/knuckleswtf/scribe/zipball/277c56e553e74b396ed7fb6dd55f9f14b529a116",
-                "reference": "277c56e553e74b396ed7fb6dd55f9f14b529a116",
+                "url": "https://api.github.com/repos/knuckleswtf/scribe/zipball/2e4b0b4485eba540e1c0743cbfa6de7300c01d9e",
+                "reference": "2e4b0b4485eba540e1c0743cbfa6de7300c01d9e",
                 "shasum": ""
             },
             "require": {
@@ -6116,7 +6116,7 @@
             ],
             "support": {
                 "issues": "https://github.com/knuckleswtf/scribe/issues",
-                "source": "https://github.com/knuckleswtf/scribe/tree/3.0.1"
+                "source": "https://github.com/knuckleswtf/scribe/tree/3.0.2"
             },
             "funding": [
                 {
@@ -6124,7 +6124,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2021-06-08T09:18:29+00:00"
+            "time": "2021-06-11T21:50:20+00:00"
         },
         {
             "name": "laravel/dusk",
