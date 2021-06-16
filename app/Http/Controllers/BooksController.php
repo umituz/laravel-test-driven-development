@@ -20,6 +20,12 @@ class BooksController extends Controller
      */
     public function store()
     {
+        /**
+
+         * @post('/books')
+         * @name('')
+         * @middlewares(web)
+         */
         $book = Book::create($this->validateRequest());
         return redirect($book->path());
     }
@@ -30,6 +36,12 @@ class BooksController extends Controller
      */
     public function update(Book $book)
     {
+        /**
+
+         * @patch('/books/{book}')
+         * @name('')
+         * @middlewares(web)
+         */
         $book->update($this->validateRequest());
         return redirect($book->path());
     }
@@ -41,6 +53,12 @@ class BooksController extends Controller
      */
     public function destroy(Book $book)
     {
+        /**
+
+         * @delete('/books/{book}')
+         * @name('')
+         * @middlewares(web)
+         */
         $book->delete();
         return redirect('/books');
     }

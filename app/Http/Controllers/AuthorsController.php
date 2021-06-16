@@ -19,6 +19,12 @@ class AuthorsController extends Controller
      */
     public function create()
     {
+        /**
+
+         * @get('/authors/create')
+         * @name('')
+         * @middlewares(web)
+         */
         return view('authors.create');
     }
 
@@ -27,6 +33,12 @@ class AuthorsController extends Controller
      */
     public function store()
     {
+        /**
+
+         * @post('/authors')
+         * @name('')
+         * @middlewares(web)
+         */
         Author::create($this->validateRequest());
     }
 

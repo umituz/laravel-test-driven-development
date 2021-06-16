@@ -29,6 +29,12 @@ class CheckinBookController extends Controller
      */
     public function store(Book $book)
     {
+        /**
+
+         * @post('/checkin/{book}')
+         * @name('')
+         * @middlewares(web, auth)
+         */
         try {
             $book->checkin(auth()->user());
         } catch (Exception $e) {

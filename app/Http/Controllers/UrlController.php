@@ -19,6 +19,12 @@ class UrlController extends Controller
      */
     public function home()
     {
+        /**
+
+         * @get('//')
+         * @name('')
+         * @middlewares(web)
+         */
         return view('welcome');
     }
 

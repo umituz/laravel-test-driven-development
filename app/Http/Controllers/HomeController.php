@@ -28,6 +28,12 @@ class HomeController extends Controller
      */
     public function index()
     {
+        /**
+
+         * @get('/home')
+         * @name('home')
+         * @middlewares(web, auth)
+         */
         return view('home');
     }
 }
