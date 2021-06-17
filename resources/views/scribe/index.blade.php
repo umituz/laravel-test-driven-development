@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="{{ asset("vendor/scribe/css/theme-default.style.css") }}" media="screen">
     <link rel="stylesheet" href="{{ asset("vendor/scribe/css/theme-default.print.css") }}" media="print">
-    <script src="{{ asset("vendor/scribe/js/theme-default-3.0.1.js") }}"></script>
+    <script src="{{ asset("vendor/scribe/js/theme-default-3.0.2.js") }}"></script>
 
     <link rel="stylesheet"
           href="//unpkg.com/@highlightjs/cdn-assets@10.7.2/styles/obsidian.min.css">
@@ -21,7 +21,7 @@
     <script>
         var baseUrl = "http://localhost";
     </script>
-    <script src="{{ asset("vendor/scribe/js/tryitout-3.0.1.js") }}"></script>
+    <script src="{{ asset("vendor/scribe/js/tryitout-3.0.2.js") }}"></script>
 
 </head>
 
@@ -50,7 +50,7 @@
                             <li><a href="{{ route("scribe.openapi") }}">View OpenAPI spec</a></li>
                     </ul>
             <ul class="toc-footer" id="last-updated">
-            <li>Last updated: June 10 2021</li>
+            <li>Last updated: June 17 2021</li>
         </ul>
 </div>
 <div class="page-wrapper">
@@ -113,7 +113,7 @@ fetch(url, {
             <pre>
             <code class="language-http">content-type: text/html; charset=UTF-8
 cache-control: no-cache, private
-set-cookie: XSRF-TOKEN=eyJpdiI6IkwzeG0yYnBvYVVQRXpJVHM3bkJ0SVE9PSIsInZhbHVlIjoiRTFLL25wYnJibWFTeFI0a1RoVFRuTVpFL0ZNSzczcTNsWE5HcmdLYjA5YzduWUJaK2pKbkxHamZOSHcxZ1IxU0JiUCsxQVY1U1EvR01wK2FqMDJ4U2d0eFZudTZCeHdOeWNPczQ4T05YUGZpcXhwdXovTWhYeW5OeHJGaVorWmQiLCJtYWMiOiIwMDVhY2JmMWMxZDE2Njk1YTc0ZTJjNjBjZWE2N2IwZGM2YTg1YmJkODk3ZDA2NDVlNzlmZmM0MDcxMDg0YTY3In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IitIL0JOa3hNMTdIbTNuT0hza3J1ZHc9PSIsInZhbHVlIjoidmJEQmd1dG5oSVJBSVUrWXJ6MkFKSEh1TkhTOFNqRldyR3dRL1IrcjVrcklqQktGTFI5bVJVa0dhVTFxbDRxR0dLdkZHTkxuMmwyTkpSTTdnM2o3S0RXdHh3cjdjU1ZYbXVPUjQzODgyaDFXQm9KS0pTWFlZVjdKbUtxWlV4cTYiLCJtYWMiOiJiN2U4ZTEzYTgzNzkyZTgyOTY3MGFiNjJjMTg4ZWJkYmY2ODZiNGY4YzU0MGMzMjJjZDE0OTE4M2QzMTBhOTlkIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6IkdyOUZCa001R2pzblJCVmtXUFF3NXc9PSIsInZhbHVlIjoiR1FtUW9tdm8xUEVOc0k1bkRyMG16dTBGbXY4SjdOTm5sRlNRZ1dMZ0V2NkdBaWp3N3J0RGJwU2FlaXFJOGpHc0tJNUNJMjhFK1IyQmlIdzFuNGpWbjI3MnN4dWFuNzc3YSsyKzFUMVB1UHFRVDY5eDNpRWExMWF1cWVOU2wzVWYiLCJtYWMiOiIwYzIzM2I2YjdiN2VlMjJhNjY3YmI4MDVjNTBiY2I5ZDM4Yjk1ODczOWRhMTQwYzdiOGU0ZDNiZTFkZTQ3ODkxIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IlhyYS96T0d3UWZrZ24rWktjQkFTamc9PSIsInZhbHVlIjoiNFZmQ3hvNVkyZEpGc1RDTVNsZGxHOFQrdUdJRUtjOGtGUllJYUZWOHlDRHRSZHAzNFB4NHBSSnpiNnJvVThoYjlieUNoRG1ZTjc1bVFoN3d2OUpSdE5oY0FMaU9xbS80V1ZqZWxyVnFvcUQ1YTRZaE40VmZKbkRSV1FOR3N0eEciLCJtYWMiOiJhYjI3NGRkNGVhYTFiM2ExODRjYWIyMzZkNjUxZTViZjNjNWI4YjgxYzc3OTcyYWJlZThkOTQ5MGZmMzgxY2ZjIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -126,7 +126,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6IkwzeG0yYnBvYVVQRXpJVHM3bkJ0SVE9PSIsInZhbHVlIjoiR
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 
     &lt;!-- CSRF Token --&gt;
-    &lt;meta name=&quot;csrf-token&quot; content=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+    &lt;meta name=&quot;csrf-token&quot; content=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
 
     &lt;title&gt;Laravel&lt;/title&gt;
 
@@ -174,7 +174,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6IkwzeG0yYnBvYVVQRXpJVHM3bkJ0SVE9PSIsInZhbHVlIjoiR
         &lt;main class=&quot;py-4&quot;&gt;
                 &lt;div class=&quot;w-2/3 bg-gray-200 mx-auto p-6 shadow&quot;&gt;
         &lt;form autocomplete=&quot;off&quot; action=&quot;/authors&quot; method=&quot;post&quot; class=&quot;flex flex-col items-center&quot;&gt;
-            &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;            &lt;h1&gt;Add New Author&lt;/h1&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;            &lt;h1&gt;Add New Author&lt;/h1&gt;
             &lt;div&gt;
                 &lt;input type=&quot;text&quot; class=&quot;rounded py-2 px-4 w-64&quot; name=&quot;name&quot; placeholder=&quot;Full Name&quot;&gt;
                             &lt;/div&gt;
@@ -387,12 +387,12 @@ fetch(url, {
 
 <pre><code class="language-bash">
 curl --request PATCH \
-    "http://localhost/books/4" \
+    "http://localhost/books/11" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/books/4"
+    "http://localhost/books/11"
 );
 
 let headers = {
@@ -462,12 +462,12 @@ fetch(url, {
 
 <pre><code class="language-bash">
 curl --request DELETE \
-    "http://localhost/books/19" \
+    "http://localhost/books/14" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/books/19"
+    "http://localhost/books/14"
 );
 
 let headers = {
@@ -542,12 +542,12 @@ fetch(url, {
 
 <pre><code class="language-bash">
 curl --request POST \
-    "http://localhost/checkin/13" \
+    "http://localhost/checkin/9" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/checkin/13"
+    "http://localhost/checkin/9"
 );
 
 let headers = {
@@ -622,12 +622,12 @@ fetch(url, {
 
 <pre><code class="language-bash">
 curl --request POST \
-    "http://localhost/checkout/19" \
+    "http://localhost/checkout/7" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/checkout/19"
+    "http://localhost/checkout/7"
 );
 
 let headers = {
@@ -690,2303 +690,6 @@ fetch(url, {
         
     </p>
 
-            <h2 id="endpoints-GET_debugbar-open">_debugbar/open</h2>
-
-<p>
-</p>
-
-
-
-<blockquote>Example request:</blockquote>
-
-
-<pre><code class="language-bash">
-curl --request GET \
-    --get "http://localhost/_debugbar/open" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"```</code></pre>
-
-<pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_debugbar/open"
-);
-
-let headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>
-
-            <blockquote>
-            <p>Example response (404):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre>
-            <code class="language-http">cache-control: no-cache, private
-content-type: application/json
- </code>
-            </pre>
-        </details>         <pre>
-                <code class="language-json">
-{
-    &quot;message&quot;: &quot;&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php&quot;,
-    &quot;line&quot;: 1064,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;abort&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\DebugbarEnabled.php&quot;,
-            &quot;line&quot;: 38,
-            &quot;function&quot;: &quot;abort&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\DebugbarEnabled&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 687,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 662,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 628,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 617,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 165,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php&quot;,
-            &quot;line&quot;: 60,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\InjectDebugbar&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php&quot;,
-            &quot;line&quot;: 63,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\fideloper\\proxy\\src\\TrustProxies.php&quot;,
-            &quot;line&quot;: 57,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 140,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 109,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 275,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 34,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 228,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 185,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 119,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 322,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 56,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 596,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 134,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 288,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 974,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 291,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
-}
- </code>
-        </pre>
-    <div id="execution-results-GET_debugbar-open" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GET_debugbar-open"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GET_debugbar-open"></code></pre>
-</div>
-<div id="execution-error-GET_debugbar-open" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GET_debugbar-open"></code></pre>
-</div>
-<form id="form-GET_debugbar-open" data-method="GET"
-      data-path="_debugbar/open"
-      data-authed="0"
-      data-hasfiles=""
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      onsubmit="event.preventDefault(); executeTryOut('GET_debugbar-open', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GET_debugbar-open"
-                    onclick="tryItOut('GET_debugbar-open');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GET_debugbar-open"
-                    onclick="cancelTryOut('GET_debugbar-open');" hidden>Cancel
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GET_debugbar-open" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>_debugbar/open</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GET_debugbar-clockwork--id-">Return Clockwork output</h2>
-
-<p>
-</p>
-
-
-
-<blockquote>Example request:</blockquote>
-
-
-<pre><code class="language-bash">
-curl --request GET \
-    --get "http://localhost/_debugbar/clockwork/est" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"```</code></pre>
-
-<pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_debugbar/clockwork/est"
-);
-
-let headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>
-
-            <blockquote>
-            <p>Example response (404):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre>
-            <code class="language-http">cache-control: no-cache, private
-content-type: application/json
- </code>
-            </pre>
-        </details>         <pre>
-                <code class="language-json">
-{
-    &quot;message&quot;: &quot;&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php&quot;,
-    &quot;line&quot;: 1064,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;abort&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\DebugbarEnabled.php&quot;,
-            &quot;line&quot;: 38,
-            &quot;function&quot;: &quot;abort&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\DebugbarEnabled&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 687,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 662,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 628,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 617,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 165,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php&quot;,
-            &quot;line&quot;: 60,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\InjectDebugbar&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php&quot;,
-            &quot;line&quot;: 63,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\fideloper\\proxy\\src\\TrustProxies.php&quot;,
-            &quot;line&quot;: 57,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 140,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 109,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 275,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 34,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 228,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 185,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 119,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 322,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 56,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 596,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 134,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 288,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 974,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 291,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
-}
- </code>
-        </pre>
-    <div id="execution-results-GET_debugbar-clockwork--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GET_debugbar-clockwork--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GET_debugbar-clockwork--id-"></code></pre>
-</div>
-<div id="execution-error-GET_debugbar-clockwork--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GET_debugbar-clockwork--id-"></code></pre>
-</div>
-<form id="form-GET_debugbar-clockwork--id-" data-method="GET"
-      data-path="_debugbar/clockwork/{id}"
-      data-authed="0"
-      data-hasfiles=""
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      onsubmit="event.preventDefault(); executeTryOut('GET_debugbar-clockwork--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GET_debugbar-clockwork--id-"
-                    onclick="tryItOut('GET_debugbar-clockwork--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GET_debugbar-clockwork--id-"
-                    onclick="cancelTryOut('GET_debugbar-clockwork--id-');" hidden>Cancel
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GET_debugbar-clockwork--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>_debugbar/clockwork/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-<input type="text" name="id" data-endpoint="GET_debugbar-clockwork--id-" data-component="url" required  hidden>
-<br>
-<p>The ID of the clockwork.</p>            </p>
-                    </form>
-
-            <h2 id="endpoints-GET_debugbar-telescope--id-">_debugbar/telescope/{id}</h2>
-
-<p>
-</p>
-
-
-
-<blockquote>Example request:</blockquote>
-
-
-<pre><code class="language-bash">
-curl --request GET \
-    --get "http://localhost/_debugbar/telescope/voluptatem" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"```</code></pre>
-
-<pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_debugbar/telescope/voluptatem"
-);
-
-let headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>
-
-            <blockquote>
-            <p>Example response (404):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre>
-            <code class="language-http">cache-control: no-cache, private
-content-type: application/json
- </code>
-            </pre>
-        </details>         <pre>
-                <code class="language-json">
-{
-    &quot;message&quot;: &quot;&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php&quot;,
-    &quot;line&quot;: 1064,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;abort&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\DebugbarEnabled.php&quot;,
-            &quot;line&quot;: 38,
-            &quot;function&quot;: &quot;abort&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\DebugbarEnabled&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 687,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 662,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 628,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 617,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 165,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php&quot;,
-            &quot;line&quot;: 60,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\InjectDebugbar&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php&quot;,
-            &quot;line&quot;: 63,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\fideloper\\proxy\\src\\TrustProxies.php&quot;,
-            &quot;line&quot;: 57,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 140,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 109,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 275,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 34,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 228,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 185,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 119,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 322,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 56,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 596,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 134,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 288,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 974,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 291,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
-}
- </code>
-        </pre>
-    <div id="execution-results-GET_debugbar-telescope--id-" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GET_debugbar-telescope--id-"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GET_debugbar-telescope--id-"></code></pre>
-</div>
-<div id="execution-error-GET_debugbar-telescope--id-" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GET_debugbar-telescope--id-"></code></pre>
-</div>
-<form id="form-GET_debugbar-telescope--id-" data-method="GET"
-      data-path="_debugbar/telescope/{id}"
-      data-authed="0"
-      data-hasfiles=""
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      onsubmit="event.preventDefault(); executeTryOut('GET_debugbar-telescope--id-', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GET_debugbar-telescope--id-"
-                    onclick="tryItOut('GET_debugbar-telescope--id-');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GET_debugbar-telescope--id-"
-                    onclick="cancelTryOut('GET_debugbar-telescope--id-');" hidden>Cancel
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GET_debugbar-telescope--id-" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>_debugbar/telescope/{id}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>id</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-<input type="text" name="id" data-endpoint="GET_debugbar-telescope--id-" data-component="url" required  hidden>
-<br>
-<p>The ID of the telescope.</p>            </p>
-                    </form>
-
-            <h2 id="endpoints-GET_debugbar-assets-stylesheets">Return the stylesheets for the Debugbar</h2>
-
-<p>
-</p>
-
-
-
-<blockquote>Example request:</blockquote>
-
-
-<pre><code class="language-bash">
-curl --request GET \
-    --get "http://localhost/_debugbar/assets/stylesheets" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"```</code></pre>
-
-<pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_debugbar/assets/stylesheets"
-);
-
-let headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>
-
-            <blockquote>
-            <p>Example response (404):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre>
-            <code class="language-http">cache-control: no-cache, private
-content-type: application/json
- </code>
-            </pre>
-        </details>         <pre>
-                <code class="language-json">
-{
-    &quot;message&quot;: &quot;&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php&quot;,
-    &quot;line&quot;: 1064,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;abort&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\DebugbarEnabled.php&quot;,
-            &quot;line&quot;: 38,
-            &quot;function&quot;: &quot;abort&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\DebugbarEnabled&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 687,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 662,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 628,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 617,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 165,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php&quot;,
-            &quot;line&quot;: 60,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\InjectDebugbar&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php&quot;,
-            &quot;line&quot;: 63,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\fideloper\\proxy\\src\\TrustProxies.php&quot;,
-            &quot;line&quot;: 57,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 140,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 109,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 275,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 34,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 228,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 185,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 119,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 322,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 56,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 596,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 134,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 288,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 974,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 291,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
-}
- </code>
-        </pre>
-    <div id="execution-results-GET_debugbar-assets-stylesheets" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GET_debugbar-assets-stylesheets"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GET_debugbar-assets-stylesheets"></code></pre>
-</div>
-<div id="execution-error-GET_debugbar-assets-stylesheets" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GET_debugbar-assets-stylesheets"></code></pre>
-</div>
-<form id="form-GET_debugbar-assets-stylesheets" data-method="GET"
-      data-path="_debugbar/assets/stylesheets"
-      data-authed="0"
-      data-hasfiles=""
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      onsubmit="event.preventDefault(); executeTryOut('GET_debugbar-assets-stylesheets', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GET_debugbar-assets-stylesheets"
-                    onclick="tryItOut('GET_debugbar-assets-stylesheets');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GET_debugbar-assets-stylesheets"
-                    onclick="cancelTryOut('GET_debugbar-assets-stylesheets');" hidden>Cancel
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GET_debugbar-assets-stylesheets" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>_debugbar/assets/stylesheets</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-GET_debugbar-assets-javascript">Return the javascript for the Debugbar</h2>
-
-<p>
-</p>
-
-
-
-<blockquote>Example request:</blockquote>
-
-
-<pre><code class="language-bash">
-curl --request GET \
-    --get "http://localhost/_debugbar/assets/javascript" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"```</code></pre>
-
-<pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_debugbar/assets/javascript"
-);
-
-let headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "GET",
-    headers,
-}).then(response =&gt; response.json());</code></pre>
-
-            <blockquote>
-            <p>Example response (404):</p>
-        </blockquote>
-                <details class="annotation">
-            <summary>
-                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
-            </summary>
-            <pre>
-            <code class="language-http">cache-control: no-cache, private
-content-type: application/json
- </code>
-            </pre>
-        </details>         <pre>
-                <code class="language-json">
-{
-    &quot;message&quot;: &quot;&quot;,
-    &quot;exception&quot;: &quot;Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException&quot;,
-    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php&quot;,
-    &quot;line&quot;: 1064,
-    &quot;trace&quot;: [
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;abort&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\DebugbarEnabled.php&quot;,
-            &quot;line&quot;: 38,
-            &quot;function&quot;: &quot;abort&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\DebugbarEnabled&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 687,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 662,
-            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 628,
-            &quot;function&quot;: &quot;runRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
-            &quot;line&quot;: 617,
-            &quot;function&quot;: &quot;dispatchToRoute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 165,
-            &quot;function&quot;: &quot;dispatch&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 128,
-            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php&quot;,
-            &quot;line&quot;: 60,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\InjectDebugbar&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
-            &quot;line&quot;: 21,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
-            &quot;line&quot;: 27,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php&quot;,
-            &quot;line&quot;: 63,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\fideloper\\proxy\\src\\TrustProxies.php&quot;,
-            &quot;line&quot;: 57,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
-            &quot;line&quot;: 103,
-            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 140,
-            &quot;function&quot;: &quot;then&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
-            &quot;line&quot;: 109,
-            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 287,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 275,
-            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 86,
-            &quot;function&quot;: &quot;makeApiCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 44,
-            &quot;function&quot;: &quot;makeResponseCall&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
-            &quot;line&quot;: 34,
-            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 228,
-            &quot;function&quot;: &quot;__invoke&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 185,
-            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
-            &quot;line&quot;: 119,
-            &quot;function&quot;: &quot;fetchResponses&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 111,
-            &quot;function&quot;: &quot;processRoute&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 322,
-            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
-            &quot;line&quot;: 56,
-            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 36,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;callBoundMethod&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
-            &quot;line&quot;: 596,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
-            &quot;type&quot;: &quot;::&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 134,
-            &quot;function&quot;: &quot;call&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Command\\Command.php&quot;,
-            &quot;line&quot;: 288,
-            &quot;function&quot;: &quot;execute&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
-            &quot;line&quot;: 121,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 974,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 291,
-            &quot;function&quot;: &quot;doRunCommand&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
-            &quot;line&quot;: 167,
-            &quot;function&quot;: &quot;doRun&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
-            &quot;line&quot;: 93,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
-            &quot;line&quot;: 129,
-            &quot;function&quot;: &quot;run&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        },
-        {
-            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\artisan&quot;,
-            &quot;line&quot;: 37,
-            &quot;function&quot;: &quot;handle&quot;,
-            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
-            &quot;type&quot;: &quot;-&gt;&quot;
-        }
-    ]
-}
- </code>
-        </pre>
-    <div id="execution-results-GET_debugbar-assets-javascript" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-GET_debugbar-assets-javascript"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-GET_debugbar-assets-javascript"></code></pre>
-</div>
-<div id="execution-error-GET_debugbar-assets-javascript" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-GET_debugbar-assets-javascript"></code></pre>
-</div>
-<form id="form-GET_debugbar-assets-javascript" data-method="GET"
-      data-path="_debugbar/assets/javascript"
-      data-authed="0"
-      data-hasfiles=""
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      onsubmit="event.preventDefault(); executeTryOut('GET_debugbar-assets-javascript', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-GET_debugbar-assets-javascript"
-                    onclick="tryItOut('GET_debugbar-assets-javascript');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-GET_debugbar-assets-javascript"
-                    onclick="cancelTryOut('GET_debugbar-assets-javascript');" hidden>Cancel
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-GET_debugbar-assets-javascript" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-green">GET</small>
-            <b><code>_debugbar/assets/javascript</code></b>
-        </p>
-                    </form>
-
-            <h2 id="endpoints-DELETE_debugbar-cache--key---tags--">Forget a cache key</h2>
-
-<p>
-</p>
-
-
-
-<blockquote>Example request:</blockquote>
-
-
-<pre><code class="language-bash">
-curl --request DELETE \
-    "http://localhost/_debugbar/cache/atque/libero" \
-    --header "Content-Type: application/json" \
-    --header "Accept: application/json"```</code></pre>
-
-<pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_debugbar/cache/atque/libero"
-);
-
-let headers = {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-};
-
-fetch(url, {
-    method: "DELETE",
-    headers,
-}).then(response =&gt; response.json());</code></pre>
-
-<div id="execution-results-DELETE_debugbar-cache--key---tags--" hidden>
-    <blockquote>Received response<span
-                id="execution-response-status-DELETE_debugbar-cache--key---tags--"></span>:
-    </blockquote>
-    <pre class="json"><code id="execution-response-content-DELETE_debugbar-cache--key---tags--"></code></pre>
-</div>
-<div id="execution-error-DELETE_debugbar-cache--key---tags--" hidden>
-    <blockquote>Request failed with error:</blockquote>
-    <pre><code id="execution-error-message-DELETE_debugbar-cache--key---tags--"></code></pre>
-</div>
-<form id="form-DELETE_debugbar-cache--key---tags--" data-method="DELETE"
-      data-path="_debugbar/cache/{key}/{tags?}"
-      data-authed="0"
-      data-hasfiles=""
-      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
-      onsubmit="event.preventDefault(); executeTryOut('DELETE_debugbar-cache--key---tags--', this);">
-    <h3>
-        Request&nbsp;&nbsp;&nbsp;
-                    <button type="button"
-                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-tryout-DELETE_debugbar-cache--key---tags--"
-                    onclick="tryItOut('DELETE_debugbar-cache--key---tags--');">Try it out ⚡
-            </button>
-            <button type="button"
-                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-canceltryout-DELETE_debugbar-cache--key---tags--"
-                    onclick="cancelTryOut('DELETE_debugbar-cache--key---tags--');" hidden>Cancel
-            </button>&nbsp;&nbsp;
-            <button type="submit"
-                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
-                    id="btn-executetryout-DELETE_debugbar-cache--key---tags--" hidden>Send Request 💥
-            </button>
-            </h3>
-            <p>
-            <small class="badge badge-red">DELETE</small>
-            <b><code>_debugbar/cache/{key}/{tags?}</code></b>
-        </p>
-                    <h4 class="fancy-heading-panel"><b>URL Parameters</b></h4>
-                    <p>
-                <b><code>key</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
-<input type="text" name="key" data-endpoint="DELETE_debugbar-cache--key---tags--" data-component="url" required  hidden>
-<br>
-            </p>
-                    <p>
-                <b><code>tags</code></b>&nbsp;&nbsp;<small>string</small>     <i>optional</i> &nbsp;
-<input type="text" name="tags" data-endpoint="DELETE_debugbar-cache--key---tags--" data-component="url"  hidden>
-<br>
-            </p>
-                    </form>
-
             <h2 id="endpoints-GET_dusk-login--userId---guard--">Login using the given user ID / email.</h2>
 
 <p>
@@ -2999,12 +702,12 @@ fetch(url, {
 
 <pre><code class="language-bash">
 curl --request GET \
-    --get "http://localhost/_dusk/login/quia/voluptatibus" \
+    --get "http://localhost/_dusk/login/omnis/est" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_dusk/login/quia/voluptatibus"
+    "http://localhost/_dusk/login/omnis/est"
 );
 
 let headers = {
@@ -3027,13 +730,13 @@ fetch(url, {
             <pre>
             <code class="language-http">cache-control: no-cache, private
 content-type: application/json
-set-cookie: XSRF-TOKEN=eyJpdiI6IjMvWVVLMFl2YXVjSWx4Y0hqVXZhZUE9PSIsInZhbHVlIjoiRWZrUTNKQkV1bktjeHg2dEMzellOK1A1YTlsVFdyY01SK0lGZkUzQVZqK0Qxd0p2MFVVcXJTU1Rqblc4WGRVazFpcWVrU0c3d29NYWZsSXV5Nys1V0RVcjZGY3ozWHZaZWVSSGhmWDNDaFRzaHlqYWhrNTBDSjdHVHhuNElIMmkiLCJtYWMiOiJhMzVjZGJiN2Q3YTc5YmU3M2Y0OGQxNzU4ZDkyZDk3YWVhMmIxODc5NTMwZWNjZjJlODYxN2M4NzEwMmM4Y2JjIn0%3D; expires=Thu, 10-Jun-2021 12:17:56 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6InNoOENERFhkc3pBdXRRRDVzR0o0alE9PSIsInZhbHVlIjoiTWVMWXEzMHFLa0xGOXJCM0tCVzkzSW43MjBoa0tBRjgxT3ZPNUoyaWhRZU4rdDcvcnI2YWpzOEhxYnJjTFp2MDVacm1tV0FDVk5aUCtUSVV1bGFPd2JsQW8vTCtVdkNYN2VDSk5GMmtkZnFyb3U5MUNtK1NoSVU2RmN3U2E5TzIiLCJtYWMiOiI1MDgxMDIyM2E4ZWE2ODc4NTAxNGI1MmI1NWU1YTVlMDcxYjZiMmY5ODBjZjJmNjZiM2YxYTRkMzdjMThiZDZmIn0%3D; expires=Thu, 10-Jun-2021 12:17:56 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6IlpGUCsxWHFwQThKaWxGOEdZOUxxN0E9PSIsInZhbHVlIjoieEkvbXFQYjlhUzg3WWtqWGhYL2lZbzU3UTljeW9obnd3NDJ1UDV4WVJnUGdiMm16WGxWa0lIR2EydENTTmhabk5lL0RWbnJXU2YxZzl6NEU1T1pIYU4xbFBSKzNkME13bFRNMlFhcGJTWDFObkpjL1FIOWcxMTFadVVjRXI5bDciLCJtYWMiOiJhMWE3NGQyYWU1MjZlZjNiYWEwOGY1OTMzOWQyZmY2NmUyYmJlMTc1OGU2NGQ1MjRmYmY0ODM4MjZiYjgxNDI4In0%3D; expires=Thu, 17-Jun-2021 15:22:48 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IklCbFZFdTlySkRtTlFFSVdEMkltWGc9PSIsInZhbHVlIjoiaWtkSEVaSmlKWkFwckJoUWRPSm5Ma2dZMThIMzk0Z2JteWExMXFzN2hjWjd1ckRUaTNxVzNUUWROVk5lK2tEdWY1akUxVm1MSmkrSGFtNHBPbTYvUEYybHdnWFZjTFlyMytHN3N4ZDVkVkhNMFBQSEJaYUl2SktIRXpHUVRjQ3AiLCJtYWMiOiI2MTEyNjI2ODFkMWNiZWVmYTRlMTVhMmI0YmE2MDVmMGNmNWZlN2RkMmYxZDNmZjVjNjZlYzRjNDdmOGIzNGJjIn0%3D; expires=Thu, 17-Jun-2021 15:22:48 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
                 <code class="language-json">
 {
-    &quot;message&quot;: &quot;Auth guard [voluptatibus] is not defined.&quot;,
+    &quot;message&quot;: &quot;Auth guard [est] is not defined.&quot;,
     &quot;exception&quot;: &quot;InvalidArgumentException&quot;,
     &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\AuthManager.php&quot;,
     &quot;line&quot;: 84,
@@ -3580,12 +1283,12 @@ set-cookie: XSRF-TOKEN=eyJpdiI6IjMvWVVLMFl2YXVjSWx4Y0hqVXZhZUE9PSIsInZhbHVlIjoiR
 
 <pre><code class="language-bash">
 curl --request GET \
-    --get "http://localhost/_dusk/logout/minima" \
+    --get "http://localhost/_dusk/logout/nulla" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_dusk/logout/minima"
+    "http://localhost/_dusk/logout/nulla"
 );
 
 let headers = {
@@ -3608,13 +1311,13 @@ fetch(url, {
             <pre>
             <code class="language-http">cache-control: no-cache, private
 content-type: application/json
-set-cookie: XSRF-TOKEN=eyJpdiI6IlpzMDZrQzdTMjNETEhNbG1ybm1tS3c9PSIsInZhbHVlIjoiTDNXaTRPQktXU0dWZWRlOC9xQUdPUmF2TWp4ek5TL3pET0FXMG9NbnVVWWs1eFFpaE0rc3MrYjl6ekJRaGlNUFVCenRpVGhRMWpEekpiNXVCRlVsc3dBb2w3UDMrK096QUJkWDhJNU44aGRkY2g1WE9oMmE5TEFkTEpybzV3WS8iLCJtYWMiOiJhMGQxZDNkMTk5MDM0OTI4MmY5NmUzNDQwYmI4Y2Y1ODA3ZTVmODZlNGViMDU4NTJlNzliZDBmZWM4NjI0NTUzIn0%3D; expires=Thu, 10-Jun-2021 12:17:56 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IlNSdDkxL2NacHpTUCs3T0J4RDhlSXc9PSIsInZhbHVlIjoidkZQYUVXRFB6QnVaczBHdzU1amgxdzJTL3o4MFVFUFIzSFpZakhJdk53WUY2NThnSWR3WmtxcVVCWFFocmNSWHR5bGo1SGQwY09zOUhlL2FWdXM4dkdqL2dQMjVja3FKYVd3ZW1qd0V5ZGZQWGdqaUNGOFhKMTNIamtuY2doeHUiLCJtYWMiOiIzM2MyZjU1M2YwNGI3OGM0Yzk5NmVhYmU2NTc1MmQ5ZjFlNzA5YmUxMTE2YTc4MDYwNGY1Mzg0ZWQ0ODU3NWRkIn0%3D; expires=Thu, 10-Jun-2021 12:17:56 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6IkJ6dGQzN2M4R0lIRE1XbFJQS09ZL1E9PSIsInZhbHVlIjoiREF1UXRtVUE3dlpzQUEvOEZhdkUvSThEZ0RGcVZadkh3VkgwN1RiaFBwRlA0Mi9qSkkwNGs1eEErSWxJei9jYjNFTG04MDBIV2g5T2JHcFlZZHh0Y2hLTVJTb3pQMjN6ZEFHR01obDJLVk9uZzd3WDV1SE1ZcHhGWVFrM1FsSjAiLCJtYWMiOiI2MWY1N2RmNjBjYWVjMWVkZDJiYjM5NmIyMDAyMTkzNDdmZWI5YmNiMmE1OTRjNDJmMzg5ZDJhZGU4ZjM4MDZmIn0%3D; expires=Thu, 17-Jun-2021 15:22:48 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6ImNJN0trT05meDhaK3VUMUw4b2VzOEE9PSIsInZhbHVlIjoiamtlZkNNellWRzNvVGR0NXArZEl2SWpDSzA0RFh0RmhMcDJoZlRmTk5vQ1M5djVZS3Fvd0hnSEFkZGhzTTBqVkI3MmNJM212QTJwMW1XUE9IeUVJY1RmZXQwSEpYaG43YmJwaVQ5dE5UcTBFS3R2alhBcS83amYyR0pCUHZNYzYiLCJtYWMiOiIyMmQ0NWRlMjgyYmRmNzliNzJlMWRhZDc5YjViYzNjMjE0Y2FkMjE4YTIyNTk2NTgxYzZiMDYyYmY2YTdlNDQ0In0%3D; expires=Thu, 17-Jun-2021 15:22:48 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
                 <code class="language-json">
 {
-    &quot;message&quot;: &quot;Auth guard [minima] is not defined.&quot;,
+    &quot;message&quot;: &quot;Auth guard [nulla] is not defined.&quot;,
     &quot;exception&quot;: &quot;InvalidArgumentException&quot;,
     &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\AuthManager.php&quot;,
     &quot;line&quot;: 84,
@@ -4156,12 +1859,12 @@ set-cookie: XSRF-TOKEN=eyJpdiI6IlpzMDZrQzdTMjNETEhNbG1ybm1tS3c9PSIsInZhbHVlIjoiT
 
 <pre><code class="language-bash">
 curl --request GET \
-    --get "http://localhost/_dusk/user/repellat" \
+    --get "http://localhost/_dusk/user/doloribus" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/_dusk/user/repellat"
+    "http://localhost/_dusk/user/doloribus"
 );
 
 let headers = {
@@ -4184,13 +1887,13 @@ fetch(url, {
             <pre>
             <code class="language-http">cache-control: no-cache, private
 content-type: application/json
-set-cookie: XSRF-TOKEN=eyJpdiI6InM1SGdYNXZiNktrYk54WEs4M010MHc9PSIsInZhbHVlIjoiOThZWW1SV0hodVBBaDJ5Y3lVME54Um9QbUNZN3YvSGJHcXUrZUZKa0FwbmtHQzlUc2VuZi9mYzBWbERXVmc0eE1Wd25GK2w4aXJ4Y2RpZnZKdjBaYVQ4dER3NzJwcWIxM2J4UlF2T05tZ29uclRZSEhKVXQzeTFPeWpJS2hpK1QiLCJtYWMiOiI2Y2MyMGFiODRkYTEwODc4YmU1OGNmN2YwODI5ZDEyYzczZTUxZDViNTVhNWVhZGI4M2RlZWMxNTc1MmQ5YmJhIn0%3D; expires=Thu, 10-Jun-2021 12:17:56 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6InZpbTZvLzJBTXM5RGxxdWJsZTJOc1E9PSIsInZhbHVlIjoiVFNFS3JtaUNqWjBURllsMlF0QVlFZHo1VjRDbjFnNGVURTZZRTFzZEF4ZmdaL3l4OG1KQTdEYjZPK3U4U21pc1JKczJTL2hHOGNhdXJpNEFsZENTYU9jTzN1aFcvTmdqR2pscTZuVkF3Y216N1hESC9rVnAzakpxclVtWTQ0TW4iLCJtYWMiOiIyODE0Y2M0ZTZjYzMwMDkwOWMwMDQ1MjRlNDE2YmVmZWJiNGI0MzI0YTNmZTNiNjY5YWIyZmRiMjM0MjExMjQ0In0%3D; expires=Thu, 10-Jun-2021 12:17:56 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6Im9PUHphMEZISVVmb1liR1FLTHVzNUE9PSIsInZhbHVlIjoidUdyTGdxYXUxZHJzQ1M2azFBam5PK2h0WVRoNm00eCtzVU1HaElsWE9nelBIZ0hVeFJuY001RlJRRTErT2xuUGE2eUdiTEhaUlBCM2IrMzcrcjcvcit1L1pmZUJjSjVyQ043UTZrcDgrREo2L2oxenZtL2xvYkV1WWg1K3pWTGwiLCJtYWMiOiI5YzJlZTg0NTg3ZmRkZTdiNDI0NWYyMjdhODRlNmFjMTg2MzMxNmRmZmZkZTVkZTk1ZTIzYWJkN2IyNzBiN2FjIn0%3D; expires=Thu, 17-Jun-2021 15:22:48 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6ImhLYjVkKzBQS1g0dlZmeGtOWnVSU1E9PSIsInZhbHVlIjoieW0zNlFvMmQ2dWZKQWtuYlR1ZEcxY3dTNEdwcDVZcGFyZTdhZjhNRXZucFBmTXc0SWFNNjZrZkZBb3AxTG5wekNlRWlWZC9uOXhZQzIzUjhTbFJJRkpvL0ZDeHVaRkpuanBrZU1UQll6ZDJnMWRYVm1XZ3dmeHdDQ0creXNSYm8iLCJtYWMiOiJkMjQ2MmFkYTJkZTE4ZGRlOWU0MWQwZWQwMTcxOTRhYmU4YjZlNjQ2NzRjMjM2NDAzZjJhZDFjYTQwN2FiMjMzIn0%3D; expires=Thu, 17-Jun-2021 15:22:48 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
                 <code class="language-json">
 {
-    &quot;message&quot;: &quot;Auth guard [repellat] is not defined.&quot;,
+    &quot;message&quot;: &quot;Auth guard [doloribus] is not defined.&quot;,
     &quot;exception&quot;: &quot;InvalidArgumentException&quot;,
     &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\AuthManager.php&quot;,
     &quot;line&quot;: 84,
@@ -4720,6 +2423,1902 @@ set-cookie: XSRF-TOKEN=eyJpdiI6InM1SGdYNXZiNktrYk54WEs4M010MHc9PSIsInZhbHVlIjoiO
             </p>
                     </form>
 
+            <h2 id="endpoints-GETschematics">schematics</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request GET \
+    --get "http://localhost/schematics" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre>
+            <code class="language-http">content-type: text/html; charset=UTF-8
+cache-control: no-cache, private
+ </code>
+            </pre>
+        </details>         <pre>
+                <code class="language-json">
+
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+    &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;meta name=&quot;csrf-token&quot; content=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
+
+    &lt;title&gt;Laravel Schematics&lt;/title&gt;
+
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;http://localhost/vendor/schematics/app.css&quot; /&gt;
+&lt;/head&gt;
+    &lt;body class=&quot;bg-gray-200&quot;&gt;
+    
+    &lt;script&gt;
+        window.Schematics = {
+            activeTab: parseInt(localStorage.getItem('schematics-active-tab') || 1),
+            config: {&quot;controller-namespace&quot;:null,&quot;form-request-namespace&quot;:&quot;App\\Http\\Requests&quot;,&quot;model&quot;:{&quot;namespace&quot;:&quot;App\\&quot;,&quot;path&quot;:&quot;C:\\xampp\\htdocs\\laravel-test-concepts\\app&quot;,&quot;paths&quot;:[&quot;C:\\xampp\\htdocs\\laravel-test-concepts\\app&quot;]},&quot;middleware&quot;:null,&quot;auto-migrate&quot;:false,&quot;create&quot;:{&quot;migration&quot;:false,&quot;resource-controller&quot;:false,&quot;form-request&quot;:false},&quot;update&quot;:{&quot;migration&quot;:false},&quot;delete&quot;:{&quot;migration&quot;:false}},
+            exceptions: [],
+            models: Object.values([&quot;App\\Author&quot;,&quot;App\\Book&quot;,&quot;App\\Reservation&quot;,&quot;App\\Test&quot;,&quot;App\\User&quot;]),
+            migrations: {&quot;redundant&quot;:0,&quot;created&quot;:7,&quot;run&quot;:6},
+            relations: {&quot;books&quot;:[{&quot;model&quot;:&quot;App\\Book&quot;,&quot;table&quot;:&quot;books&quot;,&quot;type&quot;:&quot;HasMany&quot;,&quot;relation&quot;:{&quot;model&quot;:&quot;App\\Reservation&quot;,&quot;table&quot;:&quot;reservations&quot;},&quot;method&quot;:{&quot;name&quot;:&quot;reservations&quot;,&quot;file&quot;:&quot;C:\\xampp\\htdocs\\laravel-test-concepts\\app\\Book.php&quot;,&quot;line&quot;:76}}],&quot;users&quot;:[{&quot;model&quot;:&quot;App\\User&quot;,&quot;table&quot;:&quot;users&quot;,&quot;type&quot;:&quot;MorphMany&quot;,&quot;relation&quot;:{&quot;model&quot;:&quot;Illuminate\\Notifications\\DatabaseNotification&quot;,&quot;table&quot;:&quot;notifications&quot;},&quot;method&quot;:{&quot;name&quot;:&quot;notifications&quot;,&quot;file&quot;:&quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,&quot;line&quot;:12}},{&quot;model&quot;:&quot;App\\User&quot;,&quot;table&quot;:&quot;users&quot;,&quot;type&quot;:&quot;MorphMany&quot;,&quot;relation&quot;:{&quot;model&quot;:&quot;Illuminate\\Notifications\\DatabaseNotification&quot;,&quot;table&quot;:&quot;notifications&quot;},&quot;method&quot;:{&quot;name&quot;:&quot;readNotifications&quot;,&quot;file&quot;:&quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,&quot;line&quot;:22}},{&quot;model&quot;:&quot;App\\User&quot;,&quot;table&quot;:&quot;users&quot;,&quot;type&quot;:&quot;MorphMany&quot;,&quot;relation&quot;:{&quot;model&quot;:&quot;Illuminate\\Notifications\\DatabaseNotification&quot;,&quot;table&quot;:&quot;notifications&quot;},&quot;method&quot;:{&quot;name&quot;:&quot;unreadNotifications&quot;,&quot;file&quot;:&quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,&quot;line&quot;:32}}]},
+            tables: {&quot;App\\Author&quot;:&quot;authors&quot;,&quot;App\\Book&quot;:&quot;books&quot;,&quot;App\\Reservation&quot;:&quot;reservations&quot;,&quot;App\\Test&quot;:&quot;tests&quot;,&quot;App\\User&quot;:&quot;users&quot;},
+            refresh: function() {
+                $('body').css('cursor', 'progress');
+
+                $.get('schematics/refresh', function(response) {
+                    Schematics.models = response.models;
+
+                    Schematics.relations = response.relations;
+                    Schematics.migrations = response.migrations;
+
+                    EventBus.$emit('refresh-navbar', response);
+
+                    if (response.exception) {
+                        EventBus.$emit(
+                            'alert',
+                            `${response.exception.title}: ${response.exception.message}`,
+                            'error',
+                            10000
+                        );
+                    }
+
+                    $('body').css('cursor', 'default');
+                })
+            },
+        };
+    &lt;/script&gt;
+
+    &lt;div id=&quot;app&quot;&gt;
+        &lt;schematics/&gt;
+    &lt;/div&gt;
+
+    &lt;script type=&quot;module&quot; src=&quot;http://localhost/vendor/schematics/app.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+ </code>
+        </pre>
+    <div id="execution-results-GETschematics" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETschematics"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETschematics"></code></pre>
+</div>
+<div id="execution-error-GETschematics" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETschematics"></code></pre>
+</div>
+<form id="form-GETschematics" data-method="GET"
+      data-path="schematics"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('GETschematics', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETschematics"
+                    onclick="tryItOut('GETschematics');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETschematics"
+                    onclick="cancelTryOut('GETschematics');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETschematics" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>schematics</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-GETschematics-clear-cache">schematics/clear-cache</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request GET \
+    --get "http://localhost/schematics/clear-cache" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/clear-cache"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre>
+            <code class="language-http">cache-control: no-cache, private
+content-type: application/json
+ </code>
+            </pre>
+        </details>         <pre>
+                <code class="language-json">
+
+Cache cleared
+ </code>
+        </pre>
+    <div id="execution-results-GETschematics-clear-cache" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETschematics-clear-cache"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETschematics-clear-cache"></code></pre>
+</div>
+<div id="execution-error-GETschematics-clear-cache" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETschematics-clear-cache"></code></pre>
+</div>
+<form id="form-GETschematics-clear-cache" data-method="GET"
+      data-path="schematics/clear-cache"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('GETschematics-clear-cache', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETschematics-clear-cache"
+                    onclick="tryItOut('GETschematics-clear-cache');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETschematics-clear-cache"
+                    onclick="cancelTryOut('GETschematics-clear-cache');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETschematics-clear-cache" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>schematics/clear-cache</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-GETschematics-refresh">schematics/refresh</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request GET \
+    --get "http://localhost/schematics/refresh" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/refresh"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+            <blockquote>
+            <p>Example response (200):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre>
+            <code class="language-http">cache-control: no-cache, private
+content-type: application/json
+ </code>
+            </pre>
+        </details>         <pre>
+                <code class="language-json">
+{
+    &quot;models&quot;: [
+        &quot;App\\Author&quot;,
+        &quot;App\\Book&quot;,
+        &quot;App\\Reservation&quot;,
+        &quot;App\\Test&quot;,
+        &quot;App\\User&quot;,
+        &quot;App\\Author&quot;,
+        &quot;App\\Book&quot;,
+        &quot;App\\Reservation&quot;,
+        &quot;App\\Test&quot;,
+        &quot;App\\User&quot;
+    ],
+    &quot;relations&quot;: {
+        &quot;books&quot;: [
+            {
+                &quot;model&quot;: &quot;App\\Book&quot;,
+                &quot;table&quot;: &quot;books&quot;,
+                &quot;type&quot;: &quot;HasMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;App\\Reservation&quot;,
+                    &quot;table&quot;: &quot;reservations&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;reservations&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\app\\Book.php&quot;,
+                    &quot;line&quot;: 76
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\Book&quot;,
+                &quot;table&quot;: &quot;books&quot;,
+                &quot;type&quot;: &quot;HasMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;App\\Reservation&quot;,
+                    &quot;table&quot;: &quot;reservations&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;reservations&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\app\\Book.php&quot;,
+                    &quot;line&quot;: 76
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\Book&quot;,
+                &quot;table&quot;: &quot;books&quot;,
+                &quot;type&quot;: &quot;HasMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;App\\Reservation&quot;,
+                    &quot;table&quot;: &quot;reservations&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;reservations&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\app\\Book.php&quot;,
+                    &quot;line&quot;: 76
+                }
+            }
+        ],
+        &quot;users&quot;: [
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;notifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 12
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;readNotifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 22
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;unreadNotifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 32
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;notifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 12
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;readNotifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 22
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;unreadNotifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 32
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;notifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 12
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;readNotifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 22
+                }
+            },
+            {
+                &quot;model&quot;: &quot;App\\User&quot;,
+                &quot;table&quot;: &quot;users&quot;,
+                &quot;type&quot;: &quot;MorphMany&quot;,
+                &quot;relation&quot;: {
+                    &quot;model&quot;: &quot;Illuminate\\Notifications\\DatabaseNotification&quot;,
+                    &quot;table&quot;: &quot;notifications&quot;
+                },
+                &quot;method&quot;: {
+                    &quot;name&quot;: &quot;unreadNotifications&quot;,
+                    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Notifications\\HasDatabaseNotifications.php&quot;,
+                    &quot;line&quot;: 32
+                }
+            }
+        ]
+    },
+    &quot;migrations&quot;: {
+        &quot;redundant&quot;: 0,
+        &quot;created&quot;: 7,
+        &quot;run&quot;: 6
+    }
+}
+ </code>
+        </pre>
+    <div id="execution-results-GETschematics-refresh" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETschematics-refresh"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETschematics-refresh"></code></pre>
+</div>
+<div id="execution-error-GETschematics-refresh" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETschematics-refresh"></code></pre>
+</div>
+<form id="form-GETschematics-refresh" data-method="GET"
+      data-path="schematics/refresh"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('GETschematics-refresh', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETschematics-refresh"
+                    onclick="tryItOut('GETschematics-refresh');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETschematics-refresh"
+                    onclick="cancelTryOut('GETschematics-refresh');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETschematics-refresh" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>schematics/refresh</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-relations-create">schematics/relations/create</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">curl --request POST \
+    "http://localhost/schematics/relations/create" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{\"type\":\"magni\",\"source\":\"maxime\",\"target\":\"magni\",\"options\":[\"voluptatum\"],\"method\":{\"name\":\"ea\"}}"</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/relations/create"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "type": "magni",
+    "source": "maxime",
+    "target": "magni",
+    "options": [
+        "voluptatum"
+    ],
+    "method": {
+        "name": "ea"
+    }
+}
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-relations-create" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-relations-create"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-relations-create"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-relations-create" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-relations-create"></code></pre>
+</div>
+<form id="form-POSTschematics-relations-create" data-method="POST"
+      data-path="schematics/relations/create"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-relations-create', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-relations-create"
+                    onclick="tryItOut('POSTschematics-relations-create');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-relations-create"
+                    onclick="cancelTryOut('POSTschematics-relations-create');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-relations-create" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/relations/create</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>type</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="type" data-endpoint="POSTschematics-relations-create" data-component="body" required  hidden>
+<br>
+        </p>
+                <p>
+            <b><code>source</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="source" data-endpoint="POSTschematics-relations-create" data-component="body" required  hidden>
+<br>
+        </p>
+                <p>
+            <b><code>target</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="target" data-endpoint="POSTschematics-relations-create" data-component="body" required  hidden>
+<br>
+        </p>
+                <p>
+            <b><code>options</code></b>&nbsp;&nbsp;<small>string[]</small>  &nbsp;
+<input type="text" name="options.0" data-endpoint="POSTschematics-relations-create" data-component="body" required  hidden>
+<input type="text" name="options.1" data-endpoint="POSTschematics-relations-create" data-component="body" hidden>
+<br>
+        </p>
+                <p>
+        <details>
+            <summary>
+                <b><code>method</code></b>&nbsp;&nbsp;<small>object</small>     <i>optional</i> &nbsp;
+<br>
+            </summary>
+            <br>
+                                                <p>
+                        <b><code>method.name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="method.name" data-endpoint="POSTschematics-relations-create" data-component="body" required  hidden>
+<br>
+                    </p>
+                                    </details>
+        </p>
+    
+    </form>
+
+            <h2 id="endpoints-POSTschematics-relations-delete">schematics/relations/delete</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">curl --request POST \
+    "http://localhost/schematics/relations/delete" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{\"method\":{\"name\":\"quo\",\"file\":\"aliquam\",\"line\":4}}"</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/relations/delete"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "method": {
+        "name": "quo",
+        "file": "aliquam",
+        "line": 4
+    }
+}
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-relations-delete" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-relations-delete"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-relations-delete"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-relations-delete" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-relations-delete"></code></pre>
+</div>
+<form id="form-POSTschematics-relations-delete" data-method="POST"
+      data-path="schematics/relations/delete"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-relations-delete', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-relations-delete"
+                    onclick="tryItOut('POSTschematics-relations-delete');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-relations-delete"
+                    onclick="cancelTryOut('POSTschematics-relations-delete');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-relations-delete" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/relations/delete</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+        <details>
+            <summary>
+                <b><code>method</code></b>&nbsp;&nbsp;<small>object</small>     <i>optional</i> &nbsp;
+<br>
+            </summary>
+            <br>
+                                                <p>
+                        <b><code>method.name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="method.name" data-endpoint="POSTschematics-relations-delete" data-component="body" required  hidden>
+<br>
+                    </p>
+                                                                <p>
+                        <b><code>method.file</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="method.file" data-endpoint="POSTschematics-relations-delete" data-component="body" required  hidden>
+<br>
+                    </p>
+                                                                <p>
+                        <b><code>method.line</code></b>&nbsp;&nbsp;<small>integer</small>  &nbsp;
+<input type="number" name="method.line" data-endpoint="POSTschematics-relations-delete" data-component="body" required  hidden>
+<br>
+                    </p>
+                                    </details>
+        </p>
+    
+    </form>
+
+            <h2 id="endpoints-GETschematics-models-edit">schematics/models/edit</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request GET \
+    --get "http://localhost/schematics/models/edit" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/models/edit"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "GET",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+            <blockquote>
+            <p>Example response (500):</p>
+        </blockquote>
+                <details class="annotation">
+            <summary>
+                <small onclick="textContent = parentElement.parentElement.open ? 'Show headers' : 'Hide headers'">Show headers</small>
+            </summary>
+            <pre>
+            <code class="language-http">cache-control: no-cache, private
+content-type: application/json
+ </code>
+            </pre>
+        </details>         <pre>
+                <code class="language-json">
+{
+    &quot;message&quot;: &quot;Class name must be a valid object or a string&quot;,
+    &quot;exception&quot;: &quot;Error&quot;,
+    &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\mtolhuys\\laravel-schematics\\src\\Http\\Controllers\\ModelsController.php&quot;,
+    &quot;line&quot;: 58,
+    &quot;trace&quot;: [
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php&quot;,
+            &quot;line&quot;: 54,
+            &quot;function&quot;: &quot;columns&quot;,
+            &quot;class&quot;: &quot;Mtolhuys\\LaravelSchematics\\Http\\Controllers\\ModelsController&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php&quot;,
+            &quot;line&quot;: 45,
+            &quot;function&quot;: &quot;callAction&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Controller&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php&quot;,
+            &quot;line&quot;: 239,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\ControllerDispatcher&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php&quot;,
+            &quot;line&quot;: 196,
+            &quot;function&quot;: &quot;runController&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 685,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Route&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Routing\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 687,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 662,
+            &quot;function&quot;: &quot;runRouteWithinStack&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 628,
+            &quot;function&quot;: &quot;runRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php&quot;,
+            &quot;line&quot;: 617,
+            &quot;function&quot;: &quot;dispatchToRoute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 165,
+            &quot;function&quot;: &quot;dispatch&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Routing\\Router&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 128,
+            &quot;function&quot;: &quot;Illuminate\\Foundation\\Http\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php&quot;,
+            &quot;line&quot;: 60,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Barryvdh\\Debugbar\\Middleware\\InjectDebugbar&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php&quot;,
+            &quot;line&quot;: 21,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php&quot;,
+            &quot;line&quot;: 27,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php&quot;,
+            &quot;line&quot;: 63,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\fideloper\\proxy\\src\\TrustProxies.php&quot;,
+            &quot;line&quot;: 57,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Fideloper\\Proxy\\TrustProxies&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php&quot;,
+            &quot;line&quot;: 103,
+            &quot;function&quot;: &quot;Illuminate\\Pipeline\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 140,
+            &quot;function&quot;: &quot;then&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Pipeline\\Pipeline&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php&quot;,
+            &quot;line&quot;: 109,
+            &quot;function&quot;: &quot;sendRequestThroughRouter&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 287,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Http\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 275,
+            &quot;function&quot;: &quot;callLaravelOrLumenRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 86,
+            &quot;function&quot;: &quot;makeApiCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 44,
+            &quot;function&quot;: &quot;makeResponseCall&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php&quot;,
+            &quot;line&quot;: 34,
+            &quot;function&quot;: &quot;makeResponseCallIfConditionsPass&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 228,
+            &quot;function&quot;: &quot;__invoke&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 185,
+            &quot;function&quot;: &quot;iterateThroughStrategies&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php&quot;,
+            &quot;line&quot;: 119,
+            &quot;function&quot;: &quot;fetchResponses&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 111,
+            &quot;function&quot;: &quot;processRoute&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Extracting\\Extractor&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 322,
+            &quot;function&quot;: &quot;extractEndpointsInfoFromLaravelApp&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php&quot;,
+            &quot;line&quot;: 56,
+            &quot;function&quot;: &quot;extractEndpointsInfoAndWriteToDisk&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 36,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Knuckles\\Scribe\\Commands\\GenerateDocumentation&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;Illuminate\\Container\\{closure}&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;unwrapIfClosure&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Util&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;callBoundMethod&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php&quot;,
+            &quot;line&quot;: 596,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\BoundMethod&quot;,
+            &quot;type&quot;: &quot;::&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 134,
+            &quot;function&quot;: &quot;call&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Container\\Container&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Command\\Command.php&quot;,
+            &quot;line&quot;: 288,
+            &quot;function&quot;: &quot;execute&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php&quot;,
+            &quot;line&quot;: 121,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Command\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 974,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Command&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 291,
+            &quot;function&quot;: &quot;doRunCommand&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\symfony\\console\\Application.php&quot;,
+            &quot;line&quot;: 167,
+            &quot;function&quot;: &quot;doRun&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php&quot;,
+            &quot;line&quot;: 93,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Symfony\\Component\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php&quot;,
+            &quot;line&quot;: 129,
+            &quot;function&quot;: &quot;run&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Console\\Application&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        },
+        {
+            &quot;file&quot;: &quot;C:\\xampp\\htdocs\\laravel-test-concepts\\artisan&quot;,
+            &quot;line&quot;: 37,
+            &quot;function&quot;: &quot;handle&quot;,
+            &quot;class&quot;: &quot;Illuminate\\Foundation\\Console\\Kernel&quot;,
+            &quot;type&quot;: &quot;-&gt;&quot;
+        }
+    ]
+}
+ </code>
+        </pre>
+    <div id="execution-results-GETschematics-models-edit" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-GETschematics-models-edit"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-GETschematics-models-edit"></code></pre>
+</div>
+<div id="execution-error-GETschematics-models-edit" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-GETschematics-models-edit"></code></pre>
+</div>
+<form id="form-GETschematics-models-edit" data-method="GET"
+      data-path="schematics/models/edit"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('GETschematics-models-edit', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-GETschematics-models-edit"
+                    onclick="tryItOut('GETschematics-models-edit');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-GETschematics-models-edit"
+                    onclick="cancelTryOut('GETschematics-models-edit');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-GETschematics-models-edit" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-green">GET</small>
+            <b><code>schematics/models/edit</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-models-create">schematics/models/create</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">curl --request POST \
+    "http://localhost/schematics/models/create" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{\"name\":\"voluptas\",\"fields\":[\"aut\"]}"</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/models/create"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "name": "voluptas",
+    "fields": [
+        "aut"
+    ]
+}
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-models-create" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-models-create"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-models-create"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-models-create" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-models-create"></code></pre>
+</div>
+<form id="form-POSTschematics-models-create" data-method="POST"
+      data-path="schematics/models/create"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-models-create', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-models-create"
+                    onclick="tryItOut('POSTschematics-models-create');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-models-create"
+                    onclick="cancelTryOut('POSTschematics-models-create');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-models-create" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/models/create</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="name" data-endpoint="POSTschematics-models-create" data-component="body" required  hidden>
+<br>
+        </p>
+                <p>
+            <b><code>fields</code></b>&nbsp;&nbsp;<small>string[]</small>  &nbsp;
+<input type="text" name="fields.0" data-endpoint="POSTschematics-models-create" data-component="body" required  hidden>
+<input type="text" name="fields.1" data-endpoint="POSTschematics-models-create" data-component="body" hidden>
+<br>
+        </p>
+    
+    </form>
+
+            <h2 id="endpoints-POSTschematics-models-delete">schematics/models/delete</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">curl --request POST \
+    "http://localhost/schematics/models/delete" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{\"name\":\"voluptatum\"}"</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/models/delete"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "name": "voluptatum"
+}
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-models-delete" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-models-delete"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-models-delete"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-models-delete" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-models-delete"></code></pre>
+</div>
+<form id="form-POSTschematics-models-delete" data-method="POST"
+      data-path="schematics/models/delete"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-models-delete', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-models-delete"
+                    onclick="tryItOut('POSTschematics-models-delete');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-models-delete"
+                    onclick="cancelTryOut('POSTschematics-models-delete');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-models-delete" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/models/delete</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>name</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="name" data-endpoint="POSTschematics-models-delete" data-component="body" required  hidden>
+<br>
+        </p>
+    
+    </form>
+
+            <h2 id="endpoints-POSTschematics-models-edit">schematics/models/edit</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">curl --request POST \
+    "http://localhost/schematics/models/edit" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json" \
+    --data "{\"model\":\"cum\",\"fields\":[\"quasi\"],\"created\":[\"nisi\"],\"changed\":[\"omnis\"],\"deleted\":[\"culpa\"]}"</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/models/edit"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+let body = {
+    "model": "cum",
+    "fields": [
+        "quasi"
+    ],
+    "created": [
+        "nisi"
+    ],
+    "changed": [
+        "omnis"
+    ],
+    "deleted": [
+        "culpa"
+    ]
+}
+
+fetch(url, {
+    method: "POST",
+    headers,
+    body: JSON.stringify(body),
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-models-edit" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-models-edit"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-models-edit"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-models-edit" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-models-edit"></code></pre>
+</div>
+<form id="form-POSTschematics-models-edit" data-method="POST"
+      data-path="schematics/models/edit"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-models-edit', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-models-edit"
+                    onclick="tryItOut('POSTschematics-models-edit');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-models-edit"
+                    onclick="cancelTryOut('POSTschematics-models-edit');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-models-edit" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/models/edit</code></b>
+        </p>
+                            <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
+        <p>
+            <b><code>model</code></b>&nbsp;&nbsp;<small>string</small>  &nbsp;
+<input type="text" name="model" data-endpoint="POSTschematics-models-edit" data-component="body" required  hidden>
+<br>
+        </p>
+                <p>
+            <b><code>fields</code></b>&nbsp;&nbsp;<small>string[]</small>  &nbsp;
+<input type="text" name="fields.0" data-endpoint="POSTschematics-models-edit" data-component="body" required  hidden>
+<input type="text" name="fields.1" data-endpoint="POSTschematics-models-edit" data-component="body" hidden>
+<br>
+        </p>
+                <p>
+            <b><code>created</code></b>&nbsp;&nbsp;<small>string[]</small>     <i>optional</i> &nbsp;
+<input type="text" name="created.0" data-endpoint="POSTschematics-models-edit" data-component="body"  hidden>
+<input type="text" name="created.1" data-endpoint="POSTschematics-models-edit" data-component="body" hidden>
+<br>
+        </p>
+                <p>
+            <b><code>changed</code></b>&nbsp;&nbsp;<small>string[]</small>     <i>optional</i> &nbsp;
+<input type="text" name="changed.0" data-endpoint="POSTschematics-models-edit" data-component="body"  hidden>
+<input type="text" name="changed.1" data-endpoint="POSTschematics-models-edit" data-component="body" hidden>
+<br>
+        </p>
+                <p>
+            <b><code>deleted</code></b>&nbsp;&nbsp;<small>string[]</small>     <i>optional</i> &nbsp;
+<input type="text" name="deleted.0" data-endpoint="POSTschematics-models-edit" data-component="body"  hidden>
+<input type="text" name="deleted.1" data-endpoint="POSTschematics-models-edit" data-component="body" hidden>
+<br>
+        </p>
+    
+    </form>
+
+            <h2 id="endpoints-POSTschematics-migrations-run">schematics/migrations/run</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request POST \
+    "http://localhost/schematics/migrations/run" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/migrations/run"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-migrations-run" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-migrations-run"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-migrations-run"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-migrations-run" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-migrations-run"></code></pre>
+</div>
+<form id="form-POSTschematics-migrations-run" data-method="POST"
+      data-path="schematics/migrations/run"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-migrations-run', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-migrations-run"
+                    onclick="tryItOut('POSTschematics-migrations-run');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-migrations-run"
+                    onclick="cancelTryOut('POSTschematics-migrations-run');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-migrations-run" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/migrations/run</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-migrations-rollback">schematics/migrations/rollback</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request POST \
+    "http://localhost/schematics/migrations/rollback" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/migrations/rollback"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-migrations-rollback" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-migrations-rollback"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-migrations-rollback"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-migrations-rollback" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-migrations-rollback"></code></pre>
+</div>
+<form id="form-POSTschematics-migrations-rollback" data-method="POST"
+      data-path="schematics/migrations/rollback"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-migrations-rollback', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-migrations-rollback"
+                    onclick="tryItOut('POSTschematics-migrations-rollback');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-migrations-rollback"
+                    onclick="cancelTryOut('POSTschematics-migrations-rollback');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-migrations-rollback" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/migrations/rollback</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-migrations-refresh">schematics/migrations/refresh</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request POST \
+    "http://localhost/schematics/migrations/refresh" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/migrations/refresh"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-migrations-refresh" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-migrations-refresh"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-migrations-refresh"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-migrations-refresh" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-migrations-refresh"></code></pre>
+</div>
+<form id="form-POSTschematics-migrations-refresh" data-method="POST"
+      data-path="schematics/migrations/refresh"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-migrations-refresh', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-migrations-refresh"
+                    onclick="tryItOut('POSTschematics-migrations-refresh');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-migrations-refresh"
+                    onclick="cancelTryOut('POSTschematics-migrations-refresh');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-migrations-refresh" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/migrations/refresh</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-migrations-fresh">schematics/migrations/fresh</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request POST \
+    "http://localhost/schematics/migrations/fresh" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/migrations/fresh"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-migrations-fresh" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-migrations-fresh"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-migrations-fresh"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-migrations-fresh" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-migrations-fresh"></code></pre>
+</div>
+<form id="form-POSTschematics-migrations-fresh" data-method="POST"
+      data-path="schematics/migrations/fresh"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-migrations-fresh', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-migrations-fresh"
+                    onclick="tryItOut('POSTschematics-migrations-fresh');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-migrations-fresh"
+                    onclick="cancelTryOut('POSTschematics-migrations-fresh');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-migrations-fresh" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/migrations/fresh</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-migrations-seed">schematics/migrations/seed</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request POST \
+    "http://localhost/schematics/migrations/seed" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/migrations/seed"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-migrations-seed" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-migrations-seed"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-migrations-seed"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-migrations-seed" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-migrations-seed"></code></pre>
+</div>
+<form id="form-POSTschematics-migrations-seed" data-method="POST"
+      data-path="schematics/migrations/seed"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-migrations-seed', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-migrations-seed"
+                    onclick="tryItOut('POSTschematics-migrations-seed');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-migrations-seed"
+                    onclick="cancelTryOut('POSTschematics-migrations-seed');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-migrations-seed" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/migrations/seed</code></b>
+        </p>
+                    </form>
+
+            <h2 id="endpoints-POSTschematics-migrations-delete-last">schematics/migrations/delete-last</h2>
+
+<p>
+</p>
+
+
+
+<blockquote>Example request:</blockquote>
+
+
+<pre><code class="language-bash">
+curl --request POST \
+    "http://localhost/schematics/migrations/delete-last" \
+    --header "Content-Type: application/json" \
+    --header "Accept: application/json"```</code></pre>
+
+<pre><code class="language-javascript">const url = new URL(
+    "http://localhost/schematics/migrations/delete-last"
+);
+
+let headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+};
+
+fetch(url, {
+    method: "POST",
+    headers,
+}).then(response =&gt; response.json());</code></pre>
+
+<div id="execution-results-POSTschematics-migrations-delete-last" hidden>
+    <blockquote>Received response<span
+                id="execution-response-status-POSTschematics-migrations-delete-last"></span>:
+    </blockquote>
+    <pre class="json"><code id="execution-response-content-POSTschematics-migrations-delete-last"></code></pre>
+</div>
+<div id="execution-error-POSTschematics-migrations-delete-last" hidden>
+    <blockquote>Request failed with error:</blockquote>
+    <pre><code id="execution-error-message-POSTschematics-migrations-delete-last"></code></pre>
+</div>
+<form id="form-POSTschematics-migrations-delete-last" data-method="POST"
+      data-path="schematics/migrations/delete-last"
+      data-authed="0"
+      data-hasfiles=""
+      data-headers='{"Content-Type":"application\/json","Accept":"application\/json"}'
+      onsubmit="event.preventDefault(); executeTryOut('POSTschematics-migrations-delete-last', this);">
+    <h3>
+        Request&nbsp;&nbsp;&nbsp;
+                    <button type="button"
+                    style="background-color: #8fbcd4; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-tryout-POSTschematics-migrations-delete-last"
+                    onclick="tryItOut('POSTschematics-migrations-delete-last');">Try it out ⚡
+            </button>
+            <button type="button"
+                    style="background-color: #c97a7e; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-canceltryout-POSTschematics-migrations-delete-last"
+                    onclick="cancelTryOut('POSTschematics-migrations-delete-last');" hidden>Cancel
+            </button>&nbsp;&nbsp;
+            <button type="submit"
+                    style="background-color: #6ac174; padding: 5px 10px; border-radius: 5px; border-width: thin;"
+                    id="btn-executetryout-POSTschematics-migrations-delete-last" hidden>Send Request 💥
+            </button>
+            </h3>
+            <p>
+            <small class="badge badge-black">POST</small>
+            <b><code>schematics/migrations/delete-last</code></b>
+        </p>
+                    </form>
+
             <h2 id="endpoints-GETapi-user">api/user</h2>
 
 <p>
@@ -4848,7 +4447,7 @@ fetch(url, {
             <pre>
             <code class="language-http">content-type: text/html; charset=UTF-8
 cache-control: no-cache, private
-set-cookie: XSRF-TOKEN=eyJpdiI6IkNscW56Z3FabDFIMFF5S1dDRkY5TVE9PSIsInZhbHVlIjoiZ2ZMS2ZGYlRFaFZEZEZGVlBSejVtUkNEWmp1OGtHbWR5bDcydTlzUThKRWZQaUpoak56b3RYMGFITW5OamtDWENONVFSMUFmV1E4TXdZTEF1UTAwdzVtaE5wWWNGeTJxVmI4ZjM4RG5Nc09JTXVEQ3BIVFgyTTF2eU1mcXBjZGYiLCJtYWMiOiI3NGY2NjYyOGJkZmE1OGExOGI1OWUyZjhlMTQ2Y2E5ODdiMWE5MWFiZDQwNGRlZmU2YTM4NmY1MDQ2NzNlNjU2In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IkxtaUxTZS9IRUVNMXBlY3VxSktoSGc9PSIsInZhbHVlIjoiZG5wSFlHNXg3MzdzdEx1aC8yT2NEdWtrOC9tMGtYZGNUNVhmd0JRWHFiSEtBWVd1WURicVp4NHNPSE9lWm40ZlJ4dVhKeEJ4SWk1NnVaQnBkU1AwUnJwaUxVdE0ySVd6WE9FNTRsc3IvVkNJNlVtMnFkMzVtK0dwWDRxb2pNUm4iLCJtYWMiOiI1YmM5NTY5MGZlMzAwYzRhOTY5NDk5ZDA5NmYyMzFjNDZkYjA1N2U3OWRlNjI3NWY0OGQwYWY4NTk2MmQ4NmU3In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6InFrYzN3RXRxa0pSUHFKQ0V4MTNXaVE9PSIsInZhbHVlIjoicjlHTDhNQjFvb0FGWitieStCWkNsLzRyT3FRTmg3bGNiOGNTYm9mZjdTckNpZFE0TUw4UU9reGJaQ1h6ZDZKYkFsaDFMcFA0TDc3ZHg3NGtnQ3VvTGtEQ0hSTGNyaWRUWHhlVC90bVd4TDlqckxQTWpROFdCUWRWZnpwZ3JyTFMiLCJtYWMiOiJkZmY4ZDI3MzA1MDE4ZmFhOGMzYzFiOGYwMDAyOGY5OTIwYzAwNzBiNzc4MjAyMTY0MzQxNmZlZTU0ZGJjZTExIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6Im1mWGc3cnZPVHYvUjBSK3ZSdms0UHc9PSIsInZhbHVlIjoicVU4VVR2bkJEa0pYOHM0SktURnZyU2RlQ2xGcmdUVE1GaFR2ZDlnRVdIREVaOXUzRmVBZXVsNldyQ2tBQ2lDa3JtR1pHVGZrUisreEUrU2NWSHg5WlV4bnNnSEJDZjl6dzlycGwvNkZQdkdrVGV1UTBhNHc1aGRZT1pVTXc2bm0iLCJtYWMiOiI2MmNlN2Q4MzAzYWIxMmQ1YjcwMWYwNmY1ZTJlZTY2YWFlYTc0Yzk2YTA0NmI5NDljN2M3MjQzNzI2ZjhmYzkyIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -4861,7 +4460,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6IkNscW56Z3FabDFIMFF5S1dDRkY5TVE9PSIsInZhbHVlIjoiZ
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 
     &lt;!-- CSRF Token --&gt;
-    &lt;meta name=&quot;csrf-token&quot; content=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+    &lt;meta name=&quot;csrf-token&quot; content=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
 
     &lt;title&gt;Laravel&lt;/title&gt;
 
@@ -4915,7 +4514,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6IkNscW56Z3FabDFIMFF5S1dDRkY5TVE9PSIsInZhbHVlIjoiZ
 
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;form method=&quot;POST&quot; action=&quot;http://localhost/login&quot;&gt;
-                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
                         &lt;div class=&quot;form-group row&quot;&gt;
                             &lt;label for=&quot;email&quot; class=&quot;col-md-4 col-form-label text-md-right&quot;&gt;E-Mail Address&lt;/label&gt;
 
@@ -5187,7 +4786,7 @@ fetch(url, {
             <pre>
             <code class="language-http">content-type: text/html; charset=UTF-8
 cache-control: no-cache, private
-set-cookie: XSRF-TOKEN=eyJpdiI6Ik42cHA4TG00bFo5dk41MExzSXAvQ1E9PSIsInZhbHVlIjoiSWc0VC9sQVZRNnhEWU1MTUo2Z3Fic0Q2VVIwK0kvUGtnclg5Mm53NDNiMDh3RXpLQ2QyMmJpVHJXVlRZaFhld0Rac2tBVTBpVXE4akhmQ2hsbVVqWUJiMUVrZWROdjZ0MGw5clkvRFdhenBiTGppWkNZMWpWUU5DRkRWcWVtUzMiLCJtYWMiOiJiZjhlYmY0NTgwNDZiODEyZjZlMjRkZjA2ZDg1N2MxMDdmOGViMTllNjZkNTAzZjRiOWY4YTAxZDQ1OTlmYjQwIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6ImU5dlhvcHg3NUlld0lod0RmTGM1WXc9PSIsInZhbHVlIjoiTW5tSlhqdll1Q29paFFMZUtZaHp6UTJocFF0V3Bja0F5QVg5S1pTa1BwVUE2YW0zemN6THpvZjlHR3RuRzYyU1JEZW1mY0NXdnlRaG1aaEVCVzJFOGVOOVBtdElrdHA4THBvVEJWZi9zb1V4YUpPNDF4NTRoK1cvMHh3M2lhbVEiLCJtYWMiOiJjM2VlZjU2NWQxZDMwNTEwNzkwMjIzNzFlZGRlMDM1NzE5YzU1NTk1ZTU3Yjc5MDc5NDIwMTY5YWE1YjgzYjIyIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6Ikc2SGxQRWFqSXZmS3pnN29lRVhkemc9PSIsInZhbHVlIjoiSGVWNG5wSE10a0RYbE10RTl3UWUrcERVOWVEdzFSODlwWFByRG43ZW95U1hNZUNDVlFJcTUzWVRBU2M5Zm03Zm44T1U0S24ycFVLalJRdTRJRTlkZUtYMTdMWGhHdTM1NjJRYUF1WGw5dm1SSU1lZjNMUlJyQkd2Mk8xUDVwVzQiLCJtYWMiOiI2MzdmMjkwMTFiYmQ2ZjQxZjFmYmE0NGVlODk1YjRlZWRkMmM4YTE0Y2UyOTNlY2I1Y2ZkZmNjYjkzMDM4N2UyIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6Im9Db3JQT3ZaVlk0NGFKTXJ0K3BaU3c9PSIsInZhbHVlIjoiVThwWUpnekFFODVYWThXOEFHSXdDVDQ5VU16ejR5Tmg1R2FFSEJHMzZ1MFFZMjhuN1NFRno5ZzhwUXZWQitkd0w1YW5lNWdZOE9pU3JjTVoxaHNVT2F4ZnY5U0RXQ0FuaTV1Ky9nMkdJMjc4SzZHY283TUVmVUw3RXBSQmdaZXkiLCJtYWMiOiIxYWU2OGQzNjZkOWVlNzc4ZmRhNzUwODM1ZjRlOTg2MzNjZmIyOGZlMGU4NWQ5NDgyZWY3NWNhZjcwZmNjNjNlIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -5200,7 +4799,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6Ik42cHA4TG00bFo5dk41MExzSXAvQ1E9PSIsInZhbHVlIjoiS
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 
     &lt;!-- CSRF Token --&gt;
-    &lt;meta name=&quot;csrf-token&quot; content=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+    &lt;meta name=&quot;csrf-token&quot; content=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
 
     &lt;title&gt;Laravel&lt;/title&gt;
 
@@ -5254,7 +4853,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6Ik42cHA4TG00bFo5dk41MExzSXAvQ1E9PSIsInZhbHVlIjoiS
 
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;form method=&quot;POST&quot; action=&quot;http://localhost/register&quot;&gt;
-                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
                         &lt;div class=&quot;form-group row&quot;&gt;
                             &lt;label for=&quot;name&quot; class=&quot;col-md-4 col-form-label text-md-right&quot;&gt;Name&lt;/label&gt;
 
@@ -5458,7 +5057,7 @@ fetch(url, {
             <pre>
             <code class="language-http">content-type: text/html; charset=UTF-8
 cache-control: no-cache, private
-set-cookie: XSRF-TOKEN=eyJpdiI6Im9xZnhPWWpIUnJSM25kREZvalpUdlE9PSIsInZhbHVlIjoidm1SNHJkbFRNa1hUbzF0SHUyUVdCdWhkbWwwRnVyanF3aDN4QzFmcmRQWHFOOGNVcWhyMHg0c3hha2xUSTZXZE85QTV1bldKa2lVZUNlMnFuNzJzdkZ5R2hUM1c1dnYwazlnVTB6WjlYL1BjdzZKcjBLNmRkR3U0WHI3c2hXTzAiLCJtYWMiOiI4NDVlY2MzMzAyMmFkNTAzODNhMDgxODQzZTdiNTM3ZWM2MDdmMTIxNjQ5NzIxMDA4Y2Y2ODU2MmZmNGFkZTkwIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6InFIWk5jSGVuUERBTStpNFFOdU5zckE9PSIsInZhbHVlIjoicllvcVQzNWkyYUZqNHJtUlVYaFprN2piS2wzdGFBTzZiYWpCNlBudzk2K3Q4L2VBWFZQSG16ODN0WGgxZXYxZ0xWU2tCc3JDdktqcFZYNk9hbDVxOXduTW1xQ3JTRzNUMmNyVUU4TUVzSUhvb0EyUFN2NGJ0M0RNQ09La3p2QzQiLCJtYWMiOiJmM2QyNTUzMjE0OTJiMWVhOWE0MGQ5Mjg4ZjkxZWJjNmQ2MjJhN2Y5ODI2MWU2ZmE1Y2QzZWEyOWVlYzg4MDRkIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6ImZRR0JsaXdxS0FkNHpIM3piR2E1a0E9PSIsInZhbHVlIjoiamdBMVZ0QW1zVW55enNKT2J1aWpGVzQ3QVNYMTNLbDNCcm5JRmlwckYzYnRYT1MvL1RHTmZNSW5rNFltcERNYTZ0cWFVMjZ3YW5MUFA3c1Jkb25TODhUU3hMMXN1NWxrWXJFR0JiN00xRDEzbTl6ekdHbXpDdXdHcmYrNXZHSlkiLCJtYWMiOiJjMWQzY2ZjMTE2OTcwNTM1MDlhODlmY2VmMDg4MTk5NDcxNmY0YmUyMDUxN2VhYjk0ZGM5ZmM4NDdhNmM4YjliIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IlkvbzA4OHdjODR3Nlg1OVdvREZrSGc9PSIsInZhbHVlIjoiaUd4L2RtRUZPdTZRd1hORExISGl3azkzakwwa1g4UmcySXZjT1JNWFl6Yk83UnpSUUZsQUZzZ1pya1V4WEZZK0l3WjhEVUVQMUtySVFWNThXSGpBcDA5bVFZZTFrZjduRm9qdlpOUHlzZ3RSeFlRVXBRVTdXcUVXMWQ2MURjZXkiLCJtYWMiOiI5YzQ0MDM0ZDEzOGQ1NzBhMmMyMjQyYWI5YmY4ZGY5ZTg1ZjU5ZWViZjNmOGMxNWVlMmJmYjFlM2RjOGIyMjIwIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -5471,7 +5070,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6Im9xZnhPWWpIUnJSM25kREZvalpUdlE9PSIsInZhbHVlIjoid
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 
     &lt;!-- CSRF Token --&gt;
-    &lt;meta name=&quot;csrf-token&quot; content=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+    &lt;meta name=&quot;csrf-token&quot; content=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
 
     &lt;title&gt;Laravel&lt;/title&gt;
 
@@ -5526,7 +5125,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6Im9xZnhPWWpIUnJSM25kREZvalpUdlE9PSIsInZhbHVlIjoid
                 &lt;div class=&quot;card-body&quot;&gt;
                     
                     &lt;form method=&quot;POST&quot; action=&quot;http://localhost/password/email&quot;&gt;
-                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
                         &lt;div class=&quot;form-group row&quot;&gt;
                             &lt;label for=&quot;email&quot; class=&quot;col-md-4 col-form-label text-md-right&quot;&gt;E-Mail Address&lt;/label&gt;
 
@@ -5676,12 +5275,12 @@ fetch(url, {
 
 <pre><code class="language-bash">
 curl --request GET \
-    --get "http://localhost/password/reset/atque" \
+    --get "http://localhost/password/reset/recusandae" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"```</code></pre>
 
 <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/password/reset/atque"
+    "http://localhost/password/reset/recusandae"
 );
 
 let headers = {
@@ -5704,7 +5303,7 @@ fetch(url, {
             <pre>
             <code class="language-http">content-type: text/html; charset=UTF-8
 cache-control: no-cache, private
-set-cookie: XSRF-TOKEN=eyJpdiI6Ilp6ZWNVRUt2d01scTk4VE43U2ZneXc9PSIsInZhbHVlIjoieU5uaDhoaGJmbStJTUdNbGlZemhQVUhYNUhXWHdFTytPUjZtdTdUaVNEbFhucTJGaG1yN0x4YWZwZ3hYU0pYMzRocXNRMzJId2pPbXltWndLbEp2eXBzZVpWc2JtN2lLWStUcFpPQUtJMXVBV1QwcnJOcXJkZ2xERWpYbWVQSEgiLCJtYWMiOiI2ODBkNWJhNzQzN2IwYzVmNThlNjZjZjRiN2VmNWNlNjdlMDVjNzFhMjlhNDIwNjdlNThmNzZmZWVlNjBhODVlIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6ImRkemJJUHhNb3M4ZUZEckpTcVdJVlE9PSIsInZhbHVlIjoiWlpFcDJRWnlCT3lNM0pyUVJ6YjNqaUdzeFFVelJ0d3pyZDN4aUdTdW1iZFlUd0Q4V3JRME1QdWFZZ3I1MkhBQWdRai9QekpJVkt4UlhMc0tyY0lEdDMwc1Qrd2FRRVNzbXJ4UjZiL2F5bE04aE04cUR4MmtiaEhHZW1mbnhhUUkiLCJtYWMiOiJjNDk3OGI4ZTU4MjQwZDNlY2I1YWVjOWQyZTcyYThkNzRhODU5N2I1Yjg4OGQ1NWNhYTRhZWZiNjUzOWY2YmIyIn0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6IndRYWN3d01XYnNmU1l6eDVSZnpOSEE9PSIsInZhbHVlIjoiWnJjcFFVNkpuNHYxNnJaM2ZOb0R3ak9YRGNiVGVHSmFHNFloT3VnbG9MMUFxL1B2NXZiZGowWGxESFF6dm43L3F3b0ZTdXBnMzJHRDh3b3RyVXlrOGdJL3FzV3pnV0JwRTNlL05oTHM3ZEFlZThjV0NsdDBRTkJ3UmpidGtTelkiLCJtYWMiOiI2MjdmYTg5YTQwZGUwZmI2Mzc5OTFlYTU4MGJmODQzMzUzMzM4ODM4OTE3OTE2NDU3NzQyNGFhYTMzNWRjODZlIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6ImlvM25udzhTVzNKNVhBOHd4Y2dONHc9PSIsInZhbHVlIjoiMVlITkxwRTJzQUh6UHZKZjVyVWY3dEpOK0VjRGh4c2ozWnJwNkNBY2d5Wnc0OWx3aFRDMnlZN2ZzaHprOW9PL0tLNnRGRmw2MSsxOTl1YUU3b2lTNGxTMFJIZllBNDZKYzJBYXJyS1FpUmxpNE5hNG1DTUt5ai9pWWlzUVpkUkIiLCJtYWMiOiI2YmRhNzU1ZGFiMzhlM2JlOTU1ODQ4MmM5Y2FhZWM4NWY5YTQ4MmE5MWVlNmU5MDVmMmU5OTdmOWQxMTMxMGUwIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -5717,7 +5316,7 @@ set-cookie: XSRF-TOKEN=eyJpdiI6Ilp6ZWNVRUt2d01scTk4VE43U2ZneXc9PSIsInZhbHVlIjoie
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 
     &lt;!-- CSRF Token --&gt;
-    &lt;meta name=&quot;csrf-token&quot; content=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
+    &lt;meta name=&quot;csrf-token&quot; content=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
 
     &lt;title&gt;Laravel&lt;/title&gt;
 
@@ -5771,8 +5370,8 @@ set-cookie: XSRF-TOKEN=eyJpdiI6Ilp6ZWNVRUt2d01scTk4VE43U2ZneXc9PSIsInZhbHVlIjoie
 
                 &lt;div class=&quot;card-body&quot;&gt;
                     &lt;form method=&quot;POST&quot; action=&quot;http://localhost/password/reset&quot;&gt;
-                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;5PcHJQdKF60bIjD8lhOiQ7tcmuvVyH1HUYRuKnfL&quot;&gt;
-                        &lt;input type=&quot;hidden&quot; name=&quot;token&quot; value=&quot;atque&quot;&gt;
+                        &lt;input type=&quot;hidden&quot; name=&quot;_token&quot; value=&quot;CxEGKkIzf5VrzLqrwh46juRzhIXo3fF00yeidcml&quot;&gt;
+                        &lt;input type=&quot;hidden&quot; name=&quot;token&quot; value=&quot;recusandae&quot;&gt;
 
                         &lt;div class=&quot;form-group row&quot;&gt;
                             &lt;label for=&quot;email&quot; class=&quot;col-md-4 col-form-label text-md-right&quot;&gt;E-Mail Address&lt;/label&gt;
@@ -5974,7 +5573,7 @@ fetch(url, {
             <pre>
             <code class="language-http">cache-control: no-cache, private
 content-type: application/json
-set-cookie: XSRF-TOKEN=eyJpdiI6ImJ3L055V2hpeTZsakdxU0FQSjYwTkE9PSIsInZhbHVlIjoicmp4VUp6TCs2NGhERlFlNG9EU1BLdlNxWkw4QjVGT095VVRoQ2NDQXAzSnhWUXNzTVo1TmkwUFZSZXF4VmJGcU5ERDE4SmJFcElEdEhaeXYyWUZQdDB3aWNGT2hhYm8rcEt0am5VQzZFZC9CaVN0eExHQjkzSVNUdmlOTXJSNEciLCJtYWMiOiIzYWVkZWEyNTJmNWI2OTY0ODBlOWQ5NTIwYjc2ZTFjZmM0OGQ4MWIxYjg1YTgzNTFiNDE5Y2YzZTkwYTBmMmI3In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6ImZ4NzJxT0NxLytmeVZFMXlsb0J5Q0E9PSIsInZhbHVlIjoiWCtWRUpRNFpKV3FWNU5QeFZ6ajBxTnR1Vk5mS1oydks2MXNyQldjQm9HRzB6RWhsc3pieG1uRXducHBOZEZXTnc2RGRVUFlxMGwrSkxHSTh4Nmg5TnhoRXQrbFcwOFBRdDdQR2d3Zm9yeCtsOXdaL3JLR2I2Z3E0MmNJU25YazEiLCJtYWMiOiI3YjI1NmFjMmFjNDM4OTNjMzNjYWI4NjBmMGEwOTliMTg2MTNiNzhjNjIxYTg3YWM3NWY0MmIyZDhmNDI3MzI0In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6ImlyaTY2Q2RUdC9XT0xKTVk4YkNVN2c9PSIsInZhbHVlIjoidW5CVG8xc2RzVkMzakRwZmtJblJIY3oxdTlMcFQwQVFoNDFFRExabHIyeVptMEFNTlp5WndoRFV3aUZOSnRuVEhNbmkxR2gzVCswZGhxY0o1TXdnWXh6Sml5N1daRGwxdGVtZVc4dHptOE9NTzB5OXVLOTNzRjhXc3JjWWZKQ0siLCJtYWMiOiJjNmJiZWJhY2JmZTljN2ViYmNlYjk4N2MwMDAyNGNjNjlmNDIyYjFiOTM2MWZmMmVjNTc0YjhlODQ5MzI5MDhjIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IlRFdVQzT1Z2NWU2eERyZWExdnAydnc9PSIsInZhbHVlIjoid201QzFmMGtCcVNyQTJoc2dOSVR4NjZUWHh2WG5Nc2txQ1NVSWljSFlHVVd3ZkdJdjhQL1pkMTFDeENVUHpFOVp0THNabVVtVmpnTnVuVUtUT0VhR2M1Mm4yaWk3RmxTd1pNZUYrUElVWTR1dWl6YkE2RS9sZER3U3VYeEVNcEkiLCJtYWMiOiIyOGYwNDdhYTA2ZjYxYThmODg3NDI3ZTdlNzM2NDc5ODMwOWU0MzJkNWQ2Yzk5NjFiMjMyMmIwMjUyYzEyMmU3In0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -6137,7 +5736,7 @@ fetch(url, {
             <pre>
             <code class="language-http">cache-control: no-cache, private
 content-type: application/json
-set-cookie: XSRF-TOKEN=eyJpdiI6ImRUQkxLTXpYdm9aMFJFVDBRZk1IeFE9PSIsInZhbHVlIjoicWN0OHNKclhEaGhWMHZxSldlUmI5UWRidlBNNVNzL3dTd3ZEVDdMU1BtMSswSUFmcm82VDJsRFNzSWRJZHA1NDdycjNiYWVCZHZVVXgvdXNxd2NWWUZ1akxXUHdsZUNLdm05NUo2eDZ3RWovNngzOTF1WHZoSnNxWkFkaXBhcGciLCJtYWMiOiI4MWRjZjM0MzIyOWU2ZjBlMWQzNzA2NDJkYzUwOWU1YzRlOGM5YWMyNTFmNjg1NjRmZDk2YmJlZDNiZGRkNWE1In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6InExRjZpUEErQXBOQnZFelhVeVVGM0E9PSIsInZhbHVlIjoicmpkQnlKUGNyd2xYZTN1MWduWmVvZG04M1RnQ2F3bEo5S0ROdEIreXV0eFVJa0ZQRWd4TjhrVTV1ODJHcGlsZEdMb0JRQURhSjBMSGI5SlZaMFozK2dIb1ltT2VQNzZTVXZZNXIrQ2NEV1ovaFk0c05pS2dLbVBzM0cwd0JndGoiLCJtYWMiOiI0ZTYzYmZkODk3ZWNiNzEwZWNlNjU5NGZkMGUxNmI3YjZlNmQ0MjAxZDczNDU0OGQyNjgwOWM1NmI0MmUwZmE0In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6ImFySllZd2lnekdNNk12OE8zL005QlE9PSIsInZhbHVlIjoib3p4dzhVZ3FCTlJmdXdnbzg1dk1NRlMyYkptdjRINm5FR09yeDh3Y0RmN2tod2J5bi9LYVBqOUcyZlBKNVc4Uk5BdzlVa2hOdVFHaVJ0S0ZkcEk5ZThLb1ViMEg4ZUhncW5zc3hBV3AwanlNaTZKZklTU3A2cU9iaGc1OG5oNkciLCJtYWMiOiI5YjU3YzUwZDVhZmMyYTM2NDI5MmMwOTE3NWMwZTc0MWJhMjYxNzM0OTZiY2U0NWQyZjkwNGFlMThlMjIxZjZiIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IktzRklNSU1CKzh2bDAvUWVuWTR0R2c9PSIsInZhbHVlIjoiMjRFSC90VGUvQW9lb1BpaWp2dU5HRUlpWExaUjVuNmJkUDcrU1pJcmZxemtrODlBTlNKbkV4cnI3bENXbXZTYWsxMklWd04yblc5Slg1ckdFRnRMMVBRVTFhaEFOSnhGbE1ZOFZ4Zm15RUdNVlNRQzRpQVc2YXRPZzc4ODVNakoiLCJtYWMiOiIyZDBjZjJlOTViZTI5ZTY3OGY4MThhMjdlOWNjM2IxYWMzZWRiNzBkMGM3NDlkOGMxYTM4MzQwODZmMzJmYmE4In0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
@@ -6231,7 +5830,7 @@ fetch(url, {
             <pre>
             <code class="language-http">content-type: text/html; charset=UTF-8
 cache-control: no-cache, private
-set-cookie: XSRF-TOKEN=eyJpdiI6ImJMY1pBVE9pYS94Y3FCTlllUmxzbFE9PSIsInZhbHVlIjoiZ3JKc1p0SENYT1E2cEZYNVA3Y3FzcURRcnFaaEFiVzVxQ1RLbU5CQ29rU0NlNEluZkJTR29DNHhHU3lEYjhtV0JScmpHeTVLK00yVG14SEJSMFVJdFZKbUIvYk1oSVJPSU4rbDl6c3ZQdUg0c0pDaUZJTW5vNGtDYjZ3NjVjV2MiLCJtYWMiOiI2ZTY1ODliNzcyMmVlMjAzOGUwNmZmMmQxZjFmMWU2YjFjNjg2ODcxM2IyYmIwNzE3ODQ2NDhkNzNmY2IxYjM5In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IllEdDJzNXM3ZHRZTzZUK3pkV0l3c3c9PSIsInZhbHVlIjoiY3lVS0lFL1JldFJSS0NvaVRsbFE2RDNrNEhGM1lUNVYyVVMyVVoyVnJiSS9YOWdWRjVXMFE0YUh6eGw3UkNFeVAzMlFucmkzZmZmR3l1YU5FdlNWRlo2anU3SlA3cVVpK3Z5TU8xU21nYnZVRGhLYThkM0hJRElOOWlNOW40Q0giLCJtYWMiOiIyMGVjNjY0OGZmMWVhYzEwNTE0ZTVkYTI2NjUyZWIzODcyZjI4OWIyNTQyNWU1YTI5Y2FjMGRmZGY4YzdkNzQ0In0%3D; expires=Thu, 10-Jun-2021 12:17:57 GMT; Max-Age=7200; path=/; httponly
+set-cookie: XSRF-TOKEN=eyJpdiI6Im02ZzVzejN5MFFnd0xQTG9RMjlQMWc9PSIsInZhbHVlIjoiRTlERGtoTlA1RnFnY1FlUUJoS3VSR1hzdUlVRkVjeVFyWktUU2RnNjNaYUhzSHRkNmFUT0RKNmg2T1BDeThTemN4QVZmUHExSjFtdWZqT05RM2tYQ3ppdWZ6cjdQUTBJdWdseTdxMGFNM3BwVmNQUThUQ09YWXhIdXJSTnRrTEIiLCJtYWMiOiIyMDFjNjk0NzlhMTMwNzlmZTZjMzEzYTQ2Nzc5ZjA3M2RmNGNiODRhZWRiMDliOGQwOGM0YmM1Y2Q1MTQwZGIwIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; laravel_session=eyJpdiI6IjB5QkZkaExJczErREN0bzRwcGdBUmc9PSIsInZhbHVlIjoiL3RNaUQxVkxzR2VUTHdzV3kwTjRoNnp5MWlSUW5LMnFWSEVTQ3Avc3Q4TVZ1OE03cTcwVi9JTDYvL1ZJMzRhc0JMaEJpemxIZWN1S3FENlBLV0xnQnQ1TVZyREw4OE5tK3dLWnpiUUhBekFqcCtxdGJqVk1EdkdXOURQSUU0Q3kiLCJtYWMiOiI3MjYwZjk3YTJjOGE3MGU2NDNlMmFhZTU4YTgzYzkyMTI3OWNhZjY1YzUyY2QwNWU2NjUwODAxNWU2MWZhODNjIn0%3D; expires=Thu, 17-Jun-2021 15:22:49 GMT; Max-Age=7200; path=/; httponly
  </code>
             </pre>
         </details>         <pre>
