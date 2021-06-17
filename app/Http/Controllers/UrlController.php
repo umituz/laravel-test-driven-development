@@ -39,4 +39,9 @@ class UrlController extends Controller
         Performance::results();
         return view('welcome');
     }
+
+    public function jenkins()
+    {
+        return 'Jenkins test part 1';
+    }
 }
