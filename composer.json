@@ -9,6 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
+        "andreaselia/laravel-api-to-postman": "^1.7",
         "bvanhoekelen/performance": "^2.5",
         "fideloper/proxy": "^4.0",
         "laravel/framework": "^7.0",
